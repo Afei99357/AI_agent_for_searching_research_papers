@@ -136,10 +136,31 @@ class PDFDownloader:
             elif url:
                 download_sources.append(("direct", url))
         
-        # Try each source
+        # If no sources found, provide helpful error message
+        if not download_sources:
+            error_msg = "No download sources available"
+            if not doi and not url:
+                error_msg += " (paper has no DOI or URL)"
+            elif self.mode == "open_access":
+                error_msg += f" (not found in arXiv, PMC, or Unpaywall for '{title[:50]}...')"
+            
+            self.stats["failed_downloads"] += 1
+            return {
+                "paper": paper,
+                "status": "failed",
+                "filepath": None,
+                "source": None,
+                "attempted_sources": [],
+                "error_details": [error_msg],
+                "failure_reasons": error_msg
+            }
+        
+        # Try each source and collect detailed error information
+        error_details = []
+        
         for source_name, source_url in download_sources:
             try:
-                success = self._download_from_url(source_url, filepath, source_name)
+                success, error_msg = self._download_from_url(source_url, filepath, source_name)
                 if success:
                     self.stats["successful_downloads"] += 1
                     if source_name in ["arxiv", "unpaywall", "pmc"]:
@@ -154,7 +175,10 @@ class PDFDownloader:
                         "source": source_name,
                         "url": source_url
                     }
+                else:
+                    error_details.append(f"{source_name}: {error_msg}")
             except Exception as e:
+                error_details.append(f"{source_name}: Exception - {str(e)}")
                 continue
         
         # No successful download
@@ -164,10 +188,12 @@ class PDFDownloader:
             "status": "failed",
             "filepath": None,
             "source": None,
-            "attempted_sources": [s[0] for s in download_sources]
+            "attempted_sources": [s[0] for s in download_sources],
+            "error_details": error_details,
+            "failure_reasons": "; ".join(error_details)
         }
     
-    def _download_from_url(self, url: str, filepath: Path, source: str) -> bool:
+    def _download_from_url(self, url: str, filepath: Path, source: str) -> tuple[bool, str]:
         """Download PDF from URL with different strategies based on source"""
         
         if source == "arxiv":
@@ -177,10 +203,13 @@ class PDFDownloader:
         else:
             return self._download_direct_pdf(url, filepath)
     
-    def _download_direct_pdf(self, url: str, filepath: Path) -> bool:
+    def _download_direct_pdf(self, url: str, filepath: Path) -> tuple[bool, str]:
         """Direct PDF download"""
         try:
             response = self.session.get(url, timeout=30)
+            
+            if response.status_code != 200:
+                return False, f"HTTP {response.status_code}"
             
             # Check if it's actually a PDF
             content_type = response.headers.get('content-type', '')
@@ -191,24 +220,29 @@ class PDFDownloader:
                 if pdf_links:
                     pdf_url = urljoin(url, pdf_links[0]['href'])
                     response = self.session.get(pdf_url, timeout=30)
-            
-            if response.status_code == 200:
-                with open(filepath, 'wb') as f:
-                    f.write(response.content)
-                
-                # Verify it's a valid PDF
-                if self._is_valid_pdf(filepath):
-                    return True
+                    if response.status_code != 200:
+                        return False, f"PDF link HTTP {response.status_code}"
                 else:
-                    filepath.unlink()  # Delete invalid file
-                    return False
+                    return False, "No PDF content or links found"
             
+            with open(filepath, 'wb') as f:
+                f.write(response.content)
+            
+            # Verify it's a valid PDF
+            if self._is_valid_pdf(filepath):
+                return True, "Success"
+            else:
+                filepath.unlink()  # Delete invalid file
+                return False, "Downloaded file is not a valid PDF"
+            
+        except requests.exceptions.Timeout:
+            return False, "Request timeout"
+        except requests.exceptions.ConnectionError:
+            return False, "Connection error"
         except Exception as e:
-            return False
-        
-        return False
+            return False, f"Error: {str(e)}"
     
-    def _download_arxiv_pdf(self, url: str, filepath: Path) -> bool:
+    def _download_arxiv_pdf(self, url: str, filepath: Path) -> tuple[bool, str]:
         """Download PDF from arXiv"""
         try:
             # Convert arXiv URL to PDF URL if needed
@@ -218,63 +252,88 @@ class PDFDownloader:
                 pdf_url = url
             
             response = self.session.get(pdf_url, timeout=30)
-            if response.status_code == 200:
-                with open(filepath, 'wb') as f:
-                    f.write(response.content)
+            if response.status_code != 200:
+                return False, f"arXiv HTTP {response.status_code}"
+            
+            with open(filepath, 'wb') as f:
+                f.write(response.content)
+            
+            if self._is_valid_pdf(filepath):
+                return True, "Success"
+            else:
+                filepath.unlink()
+                return False, "Downloaded file is not a valid PDF"
                 
-                if self._is_valid_pdf(filepath):
-                    return True
-                else:
-                    filepath.unlink()
-                    return False
-        except Exception:
-            return False
-        
-        return False
+        except requests.exceptions.Timeout:
+            return False, "arXiv request timeout"
+        except requests.exceptions.ConnectionError:
+            return False, "arXiv connection error"
+        except Exception as e:
+            return False, f"arXiv error: {str(e)}"
     
-    def _download_publisher_pdf(self, url: str, filepath: Path) -> bool:
+    def _download_publisher_pdf(self, url: str, filepath: Path) -> tuple[bool, str]:
         """Download from publisher (works with university access)"""
         try:
             # First get the page
             response = self.session.get(url, timeout=30)
             if response.status_code != 200:
-                return False
+                return False, f"Publisher page HTTP {response.status_code}"
             
             soup = BeautifulSoup(response.content, 'html.parser')
             
             # Look for PDF download links (common patterns)
             pdf_selectors = [
                 'a[href*=".pdf"]',
-                'a[href*="pdf"]',
+                'a[href*="pdf"]', 
                 'a.pdf-download',
                 'a.download-pdf',
                 '.pdf-link a',
                 '[data-testid="pdf-link"]'
             ]
             
+            pdf_links_found = 0
+            last_error = "No PDF links found"
+            
             for selector in pdf_selectors:
                 links = soup.select(selector)
                 for link in links:
                     href = link.get('href')
                     if href:
+                        pdf_links_found += 1
                         pdf_url = urljoin(url, href)
                         try:
                             pdf_response = self.session.get(pdf_url, timeout=30)
-                            if pdf_response.status_code == 200 and 'application/pdf' in pdf_response.headers.get('content-type', ''):
-                                with open(filepath, 'wb') as f:
-                                    f.write(pdf_response.content)
-                                
-                                if self._is_valid_pdf(filepath):
-                                    return True
+                            if pdf_response.status_code == 200:
+                                content_type = pdf_response.headers.get('content-type', '')
+                                if 'application/pdf' in content_type:
+                                    with open(filepath, 'wb') as f:
+                                        f.write(pdf_response.content)
+                                    
+                                    if self._is_valid_pdf(filepath):
+                                        return True, "Success"
+                                    else:
+                                        filepath.unlink()
+                                        last_error = "PDF file was invalid"
                                 else:
-                                    filepath.unlink()
-                        except Exception:
-                            continue
+                                    last_error = f"Link not PDF content-type: {content_type}"
+                            else:
+                                last_error = f"PDF link HTTP {pdf_response.status_code}"
+                        except requests.exceptions.Timeout:
+                            last_error = "PDF link timeout"
+                        except Exception as e:
+                            last_error = f"PDF link error: {str(e)}"
             
-        except Exception:
-            return False
-        
-        return False
+            if pdf_links_found == 0:
+                return False, "No PDF download links found on publisher page"
+            else:
+                return False, f"Found {pdf_links_found} PDF links but all failed: {last_error}"
+            
+        except requests.exceptions.Timeout:
+            return False, "Publisher page timeout"
+        except requests.exceptions.ConnectionError:
+            return False, "Publisher connection error"
+        except Exception as e:
+            return False, f"Publisher error: {str(e)}"
     
     def _check_arxiv(self, title: str) -> Optional[str]:
         """Check if paper is available on arXiv"""

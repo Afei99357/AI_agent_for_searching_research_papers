@@ -262,6 +262,23 @@ Return only the enhanced search query (under 80 characters):"""
             print(f"  Failed: {pdf_results['statistics']['failed_downloads']}")
             print(f"  PDFs saved to: {pdf_results['download_directory']}")
             
+            # Show common failure reasons if there are failures
+            if pdf_results['statistics']['failed_downloads'] > 0:
+                failed_papers = [r for r in pdf_results['results'] if r['status'] == 'failed']
+                if failed_papers:
+                    failure_reasons = {}
+                    for paper in failed_papers:
+                        reasons = paper.get('failure_reasons', 'Unknown error')
+                        # Group similar errors
+                        for reason in reasons.split(';'):
+                            reason = reason.strip()
+                            if reason:
+                                failure_reasons[reason] = failure_reasons.get(reason, 0) + 1
+                    
+                    print(f"\nCommon failure reasons:")
+                    for reason, count in sorted(failure_reasons.items(), key=lambda x: x[1], reverse=True):
+                        print(f"  • {reason}: {count} papers")
+            
             # Save detailed PDF report
             if output_file:
                 pdf_report_file = output_file.replace('.json', '_pdf_report.json')
