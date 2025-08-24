@@ -18,18 +18,51 @@ A powerful academic literature search tool that uses LLM-enhanced queries to fin
 
 ### Required Software
 - Python 3.13+
-- [Ollama](https://ollama.com/) with qwen3:latest model
+- [Ollama](https://ollama.com/) with qwen2.5:3b model
 - UV package manager (or pip)
 
-### Setup
+### Install Ollama
+
+#### On macOS
 ```bash
-# Install Ollama and pull the model
-ollama pull qwen3:latest
+# Download and install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Or with Homebrew
+brew install ollama
+```
+
+#### On Linux
+```bash
+# Download and install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+#### On Windows
+1. Download Ollama from https://ollama.com/download/windows
+2. Run the installer
+3. Open Command Prompt or PowerShell
+
+#### Pull the Required Model
+After installing Ollama:
+```bash
+# Start Ollama service (if not auto-started)
+ollama serve
+
+# In a new terminal, pull the required model
+ollama pull qwen2.5:3b
+```
+
+### Setup Project
+```bash
+# Clone the repository
+git clone https://github.com/Afei99357/AI_agent_for_searching_research_papers.git
+cd AI_agent_for_searching_research_papers
 
 # Install dependencies
 uv sync
 # or with pip
-pip install requests ollama
+pip install -r requirements.txt
 ```
 
 ## Quick Start
@@ -476,13 +509,13 @@ The tool exports results in structured JSON format:
 ## API Limits and Considerations
 
 ### Current Limits
-- **Semantic Scholar**: 100 papers per request, 100 requests per 5 minutes
-- **CrossRef**: 1000 papers per request, higher rate limits
+- **Semantic Scholar**: 100 papers per request without API key
+- **Rate limiting**: Built-in delays and retry logic
 
 ### Getting More Papers
-1. **Use CrossRef** for larger batches (up to 1000 papers)
-2. **Use month ranges** to break down searches and stay within limits
-3. **Multiple searches** with different year ranges
+1. **Use month ranges** to break down searches and stay within limits
+2. **Multiple searches** with different year ranges
+3. **Progressive searches** from recent to historical
 
 ### Working with Month Ranges (Recommended for API Limits)
 ```bash
@@ -607,12 +640,30 @@ Results saved to: results.json
 
 ### Common Issues
 
-#### LLM Enhancement Problems
+#### Ollama/LLM Enhancement Problems
 ```bash
-# If LLM enhancement fails, check Ollama status
+# Check if Ollama is running
 ollama list
-ollama pull qwen3:latest
+
+# If model is not found, pull it
+ollama pull qwen2.5:3b
+
+# If Ollama service is not running
+ollama serve
+
+# Test the model directly
+ollama run qwen2.5:3b "Hello, how are you?"
+
+# Check Ollama logs (Linux/macOS)
+journalctl -u ollama -f
+# Or check ~/.ollama/logs/
 ```
+
+**Common Ollama Issues:**
+- **Model not found**: Run `ollama pull qwen2.5:3b`
+- **Connection refused**: Start Ollama service with `ollama serve`
+- **Slow responses**: Model is loading, wait a few minutes
+- **Memory issues**: qwen2.5:3b requires ~2GB RAM
 
 #### API Rate Limits
 ```bash
