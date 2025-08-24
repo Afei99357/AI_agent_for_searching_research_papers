@@ -1,0 +1,10 @@
+[project]
+name = "research-paper-search-agent"
+version = "0.1.0"
+description = "Standalone academic literature search agent with LLM-enhanced queries and time filtering"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.31.0",
+    "ollama>=0.1.0"
+]
