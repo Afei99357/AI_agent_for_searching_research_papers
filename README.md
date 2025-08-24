@@ -18,8 +18,50 @@ A powerful academic literature search tool that uses LLM-enhanced queries to fin
 
 ### Required Software
 - Python 3.13+
+- [UV package manager](https://github.com/astral-sh/uv) (or pip)
 - [Ollama](https://ollama.com/) with qwen2.5:3b model
-- UV package manager (or pip)
+
+### Install UV Package Manager
+
+UV is a fast Python package manager. Choose your installation method:
+
+#### Option 1: Official Installer (Recommended)
+**Windows/macOS/Linux:**
+```bash
+# Download and install UV
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+#### Option 2: Using pip
+```bash
+# Install UV using pip
+pip install uv
+```
+
+#### Option 3: Platform-specific installers
+**Windows (PowerShell):**
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+**macOS (Homebrew):**
+```bash
+brew install uv
+```
+
+**Linux (Package managers):**
+```bash
+# Debian/Ubuntu
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Or download from https://github.com/astral-sh/uv/releases
+```
+
+#### Verify UV Installation
+```bash
+# Check if UV is installed
+uv --version
+```
 
 ### Install Ollama
 
@@ -67,15 +109,31 @@ ollama pull qwen2.5:3b
 ```
 
 ### Setup Project
+
+#### Step 1: Clone the Repository
 ```bash
-# Clone the repository
 git clone https://github.com/Afei99357/AI_agent_for_searching_research_papers.git
 cd AI_agent_for_searching_research_papers
+```
 
-# Install dependencies
+#### Step 2: Install Dependencies
+
+**Option A: Using UV (Recommended - faster):**
+```bash
+# Install dependencies with UV
 uv sync
-# or with pip
+```
+
+**Option B: Using pip (Traditional method):**
+```bash
+# Install dependencies with pip
 pip install -r requirements.txt
+```
+
+#### Step 3: Verify Everything Works
+```bash
+# Test the installation
+python online_literature_search.py --help
 ```
 
 ## Quick Start
