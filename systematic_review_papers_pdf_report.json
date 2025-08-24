@@ -1,0 +1,2286 @@
+{
+  "download_summary": {
+    "total_attempts": 75,
+    "successful_downloads": 2,
+    "open_access_found": 2,
+    "university_access_used": 0,
+    "failed_downloads": 73
+  },
+  "download_directory": "systematic_reviews",
+  "detailed_results": [
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Modeling the impact of temperature and bird migration on the spread of West Nile virus",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "P. Duve",
+          "F. Sauer",
+          "Renke Luhken"
+        ],
+        "abstract": "West Nile virus (WNV) is a climate-sensitive mosquito-borne arbovirus circulating between mosquitoes of the genus Culex and birds, with a potential spillover to humans and other mammals. Recent trends in climatic change, characterized by early and/or prolonged summer seasons, increased temperatures, and above-average rainfall, probably facilitated the spread of WNV in Europe, including Germany. In this work, we formulate a spatial WNV model consisting of a system of parabolic partial differential equations (PDEs), using the concept of diffusion and advection in combination with temperature-dependent parameters, i.e., mosquito biting rate, extrinsic incubation, and mortality rate. Diffusion represents the random movement of both mosquitoes and hosts across space, while advection captures the directed movement of migratory birds. The model is first studied mathematically, and we show that it has non-negative, unique, and bounded solutions in time and space. Numerical simulations of the PDE model are performed using temperature data for Germany (2019 - 2024). Results obtained from the simulation showed a high agreement with the reported WNV cases among birds and equids in Germany. The observed spreading patterns from the year 2018 to 2022 and the year 2024 were mainly driven by temperature in combination with diffusion processes of hosts and vectors. Only during the year 2023, the additional inclusion of advection for migratory birds was important to correctly predict new hotspots in new locations in Germany.",
+        "url": "https://www.semanticscholar.org/paper/3cee0874181ad067abc13ed880ba2d8567ed22a2"
+      },
+      "status": "downloaded",
+      "filepath": "systematic_reviews/2025_Modeling_the_impact_of_temperature_and_bird_migration_on_the_spread_of_West_Nile_virus.pdf",
+      "source": "arxiv",
+      "url": "http://arxiv.org/pdf/2508.14740v1.pdf"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Stochastic modeling of the horse population and vaccination data indicates low annual vaccination coverage for West Nile virus in Canada (2016-2020).",
+        "journal": "Canadian journal of veterinary research = Revue canadienne de recherche veterinaire",
+        "doi": null,
+        "authors": [
+          "Antoine Levasseur",
+          "Julie Paré",
+          "Pascale Aubry",
+          "Stefan Iwasawa",
+          "Doris Leung",
+          "Julie Arsenault"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/c123b356306408172a9b4e9567e51e5fa3bc5e6b"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: No PDF content or links found"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: No PDF content or links found"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Fractional order modeling and solution of West Nile virus epidemic model in presence of Wolbachia",
+        "journal": "Computers in biology and medicine",
+        "doi": null,
+        "authors": [
+          "Iftikhar Ahmed",
+          "Mohammad Amjid",
+          "Ehtsham Azhar",
+          "Muhammad Jamal",
+          "Zeshan Faiz"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/b1f5416d1ebcc26418866dd24d42d84f4871d6fb"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: No PDF content or links found"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: No PDF content or links found"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Immune Responses Against West Nile Virus and Mosquito Salivary Proteins in Wild Birds from St. Tammany Parish, Louisiana",
+        "journal": "Zoonotic Diseases",
+        "doi": null,
+        "authors": [
+          "Alyssa R. Schwinn",
+          "Sara Harris",
+          "Zoe Jacobs",
+          "Jane E de Verges",
+          "Samuel B. Jameson",
+          "Dawn M. Wesson",
+          "Sarah R. Michaels",
+          "Kevin A. Caillouët",
+          "Berlin Londoño-Renteria"
+        ],
+        "abstract": "Though a variety of methods are used to conduct West Nile virus (WNV) surveillance, accurate prediction and prevention of outbreaks remain a global challenge. Previous studies have established that the concentration of antibodies to mosquito saliva is directly related to the intensity of exposure to mosquito bites and can be a good proxy to determine risk of infection in human populations. To assess exposure characteristics and transmission dynamics among avian communities, we tested the levels of IgY antibodies against whole salivary glands of Aedes albopictus and Culex quinquefasciatus, as well as WNV antigen, in 300 Northern cardinals sampled from April 2019 to October 2019 in St. Tammany Parish, Louisiana. Though there were no significant differences in antibody responses among sex or age groups, exposure to Ae. albopictus bites was more positively associated with exposure to WNV compared with Cx. quinquefasciatus exposure (ρ = 0.2525, p < 0.001; ρ = 0.1752, p = 0.02437). This association was more pronounced among female birds (ρ = 0.3004, p = 0.0075), while no significant relationship existed between exposure to either mosquito vector and WNV among male birds in the study. In general, two seasonal trends in exposure were found, noting that exposure to Ae. albopictus becomes less intense throughout the season (ρ = −0.1529, p = 0.04984), while recaptured birds in the study were found to have increased exposure to Cx. quinquefasciatus by the end of the season (ρ = 0.277, p = 0.0468). Additionally, we report the identification of several immunogenic salivary proteins, including D7 family proteins, from both mosquito vectors among the birds. Our results suggest that Ae. albopictus may have a role in early-season transmission of WNV, particularly among brooding females and hatchling cardinals. However, bloodmeal analysis was not included in this work and further studies are needed to verify this assumption. Yet, broad circulation of WNV in nesting avian communities could enhance risk of infection among Cx. quinquefasciatus mosquitoes in the late season, with the potential to contribute to human disease incidence and epizootic spillover in the environment.",
+        "url": "https://www.semanticscholar.org/paper/b7b88a3bf0cba166f2248c3a7318b17232ae5740"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: No PDF content or links found"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: No PDF content or links found"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Probabilistic Assessment of West Nile Virus Spillover Risk Using a Compartmental Mechanistic Model",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "Saman Hosseini",
+          "L. Cohnstaedt",
+          "Matin Marjani",
+          "Caterina M. Scoglio"
+        ],
+        "abstract": "This paper presents a novel probabilistic approach for assessing the risk of West Nile Disease (WND) spillover to the human population. The assessment has been conducted under two different scenarios: (1) assessment of the onset of spillover, and (2) assessment of the severity of the epidemic after the onset of the disease. A compartmental model of differential equations is developed to describe the disease transmission mechanism, and a probability density function for pathogen spillover to humans is derived based on the model for the assessment of the risk of the spillover onset and the severity of the epidemic. The prediction strategy involves making a long-term forecast and then updating it with a short-term (lead time of two weeks or daily). The methodology is demonstrated using detailed outbreak data from high-case counties in California, including Orange County, Los Angeles County, and Kern County. The predicted results are compared with actual infection dates reported by the California Department of Public Health for 2022-2024 to assess prediction accuracy. The performance accuracy is evaluated using a logarithmic scoring system and compared with one of the most renowned predictive models to assess its effectiveness. In all prediction scenarios, the model demonstrated strong performance. Lastly, the method is applied to explore the impact of global warming on spillover risk, revealing an increasing trend in the number of high-risk days and a shift toward a greater proportion of these days over time for the onset of the disease.",
+        "url": "https://www.semanticscholar.org/paper/9ccd8c64ed44ff07bd65888eabcc0c828d3a2ba4"
+      },
+      "status": "downloaded",
+      "filepath": "systematic_reviews/2025_Probabilistic_Assessment_of_West_Nile_Virus_Spillover_Risk_Using_a_Compartmental_Mechanistic_Model.pdf",
+      "source": "arxiv",
+      "url": "http://arxiv.org/pdf/2503.18433v1.pdf"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "The paradoxical impact of drought on West Nile virus risk: insights from long-term ecological data",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Samantha Sambado",
+          "Terrell J Sipin",
+          "Zoe Rennie",
+          "Ashley E. Larsen",
+          "James Cunningham",
+          "Amy Quandt",
+          "Dan Sousa",
+          "Andrew J MacDonald"
+        ],
+        "abstract": "Mosquito-borne diseases are deeply embedded within ecological communities, with environmental changes – particularly climate change – shaping their dynamics. Increasingly intesense droughts across the globe have profound implications for the transmission of these diseases, as drought conditions can alter mosquito breeding habitats, host-seeking behaviors, and mosquito-host contact rates. To quantify the effect of drought on disease transmission, we use West Nile virus (WNV) as a model system and leverage a robust mosquito and virus dataset consisting of over 500,000 trap nights collected from 2010-2023, spanning a historic drought period followed by atmospheric rivers. We pair this surveillance dataset with a novel modeling approach that incorporates monthly changes in bird host community competence, along with drought conditions, to estimate the effect of drought severity on WNV risk using panel regression models. Our results show that while drought decreases mosquito abundances, it paradoxically increases WNV infection rates. This counterintuitive pattern likely stems from reduced water availability, which concentrates mosquitos and pathogen-amplifying bird hosts around limited water sources, thereby increasing disease transmission risk. However, the magnitude of the effect depends critically on mosquito species, suggesting species-specific behavioral traits are key to understanding the effect of drought on mosquito-borne disease risk across real landscapes.",
+        "url": "https://www.semanticscholar.org/paper/7782390b16001475d8f5a4b22feb2ff9c32ea9a6"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Exploring factors affecting the reintroduction and amplification of West Nile virus in heterogeneous landscapes in Canada, using a cellular automata approach.",
+        "journal": "Journal of medical entomology",
+        "doi": null,
+        "authors": [
+          "Baki Cisse",
+          "David Lapen",
+          "K. Chalvet-Monfray",
+          "Nicholas H. Ogden",
+          "Antoinette Ludwig"
+        ],
+        "abstract": "West-Nile virus (WNV) is an endemic public health risk in Canada, with outbreaks/reintroduction and amplification that may increase in frequency and size with climate change and urbanization. In this modeling study, we used a compartmentalized and spatialized Susceptible, Exposed, Infected, Recovered (SEIR) WNV transmission model incorporating a cellular automata approach. We tested four scenarios in which we modified the number of infected birds arriving in spring, modified the number of infected mosquitoes emerging from their overwintering/dormancy period, studied the impact of bird abundance on epidemic starting point locations, and examined the progressive shift in mosquito feeding preferences from birds to mammals. First, we observed that WNV amplification may be associated with the arrival of infected migratory birds in the spring, with more severe epidemics as the number of infected birds increases. Secondly, amplification due to the local persistence of WNV virus in surviving infected overwintering female mosquitoes resulted in more severe epidemics in the human population than when amplification was due to the arrival of infected birds. Thirdly, epidemics were more severe when initiated in cells with low bird density than in those with high density. Lastly, the shift in mosquito feeding preference to human blood meals at the end of summer could generate more cases in human populations if reservoir birds delay their migration and stay longer, amplifying the virus locally. A field study is needed to quantify the impact of these mechanisms on WNV reintroduction in southeastern Canada, to better design interventions and early warning systems.",
+        "url": "https://www.semanticscholar.org/paper/d624be695b478e527cb16444b440182fcbb9c29e"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Hyers-Ulam Stability of Fractional Differential Equations Using West Nile Virus",
+        "journal": "International Journal of Analysis and Applications",
+        "doi": null,
+        "authors": [
+          "S. Dhivya",
+          "V. Govindan",
+          "Siriluk Donganont"
+        ],
+        "abstract": "In this paper, we use the Atangana-Baleanu Caputo derivative to design and assess a fractional-order infection model for West Nile virus. The model offers insights into the evolution of the virus and takes into account its intricate dynamics of transmission. We investigate the system’s qualitative behavior and prove existence and uniqueness findings using fixed-point theory. Additionally, we examine the suggested model’s stability in terms of Hyers-Ulam stability. Euler’s approach for the Atangana-Baleanu integral is used to numerically simulate the fractional-order model in order to visualize the effects of different parameters. The theoretical findings are verified, and the impact of fractional-order derivatives on the dynamics of the system is demonstrated using MATLAB. The study emphasizes the use of fractional calculus in epidemiological modeling, which offers a more realistic depiction of the spread of illness in the actual world.",
+        "url": "https://www.semanticscholar.org/paper/3295436f8d18c02491e83da049a963483dafd785"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Assessing the Relationship Between Entomological Surveillance Indices and West Nile Virus Transmission, United States: Systematic Review.",
+        "journal": "Vector borne and zoonotic diseases",
+        "doi": null,
+        "authors": [
+          "T. C. Moore",
+          "Xin Tang",
+          "H. E. Brown"
+        ],
+        "abstract": "Background: Entomological surveillance indices are used to estimate the risk of West Nile virus (WNV; family Flaviviridae, genus Flavivirus) transmission. To determine when and where to initiate mosquito control activities, integrated vector management programs establish action thresholds based on entomological surveillance indices. However, the application of entomological surveillance indices needs further investigation relative to the human risk of WNV infection. Herein, we examine the evidence from studies that investigated the quantitative relationship between entomological surveillance indices and human WNV cases using systematic review methods. Results: Across three databases, 5378 articles were identified. Using the selection criteria, 38 studies were included for study. Most articles explored entomological indices weekly and devised unique geographic scales to aggregate human and/or mosquito data. The most used models were logistic and negative binomial regression. Maximum likelihood estimates (MLEs) and vector index (VI) demonstrated the greatest ratio of number of positive results to number of times tested. Among all selected articles, 35 unique U.S. locations assessed MLE and/or VI. Human WNV infection had a significant association with MLE across 81.25% (13/16) of locations. VI showed successful performance across 80.00% (24/30) sites tested. Conclusions: This systematic review identifies methods for quantifying relationships between entomological and human WNV infection data. We found entomological surveillance indices applied to human WNV risk should include a measure of virus presence, such as MLE and VI. Model type and covariates were too variable to identify geographic or species-specific trends, though, when tested, including temperature, land cover, population density, and time improved the model. This study is meant to be informative and designed to assist public health agencies in seasonal WNV preparations but are not meant to be a panacea for all WNV surveillance challenges.",
+        "url": "https://www.semanticscholar.org/paper/ec52419a51f7cc286534ee0fd8b48a7cd631b47c"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Uncovering temperature sensitivity of West Nile virus transmission: Novel computational approaches to mosquito-pathogen trait responses",
+        "journal": "PLOS Computational Biology",
+        "doi": null,
+        "authors": [
+          "Julian Heidecke",
+          "Jonas Wallin",
+          "Peter Fransson",
+          "Pratik Singh",
+          "Henrik Sjödin",
+          "Pascale Stiles",
+          "Marina Treskova",
+          "Joacim Röcklov"
+        ],
+        "abstract": "Temperature influences the transmission of mosquito-borne pathogens with significant implications for disease risk under climate change. Mathematical models of mosquito-borne infections rely on functions that capture mosquito-pathogen interactions in response to temperature to accurately estimate transmission dynamics. For deriving these functions, experimental studies provide valuable data on the temperature sensitivity of mosquito life-history traits and pathogen transmission. However, the scarcity of experimental data and inconsistencies in methodologies for analysing temperature responses across mosquito species, pathogens, and experiments present major challenges. Here, we introduce a new approach to address these challenges. We apply this framework to study the thermal biology of West Nile virus (WNV). We reviewed existing experimental studies, obtaining temperature responses for eight mosquito-pathogen traits across 15 mosquito species. Using these data, we employed Bayesian hierarchical models to estimate temperature response functions for each trait and their variation between species and experiments. We incorporated the resulting functions into mathematical models to estimate the temperature sensitivity of WNV transmission, focusing on six mosquito species of the genus Culex. Our study finds a general optimal transmission temperature around 24°C among Culex species with only small species-specific deviations. We demonstrate that differing mechanistic assumptions underlying published mosquito population models result in temperature optima estimates that differ by up to 3°C. Additionally, we find substantial variability between trait temperature responses across experiments on the same species, possibly indicating significant intra-species variation in trait performance. We identify mosquito biting rate, lifespan, and egg viability as priorities for future experiments, as they strongly influence estimates of temperature limits, optima, and overall uncertainty in transmission suitability. Experimental studies on vector competence traits are also essential, because limited data on these currently require model simplifications. These data would enhance the accuracy of our estimates, critical for anticipating future shifts in WNV risk under climate change.",
+        "url": "https://www.semanticscholar.org/paper/b3f49ffce2266576486aa69f8ab96b0974abd990"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Prevalence of human West Nile Virus infections in Iran: A systematic review and meta-analysis.",
+        "journal": "Journal of vector borne diseases",
+        "doi": null,
+        "authors": [
+          "R. Pakzad",
+          "Shahab Falahi",
+          "A. Kenarkoohi",
+          "J. Nejati",
+          "Morteza Akbari"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/7e78d325e42bed39ec3e6bdf06fe3c13674b0a14"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Early warning system of the seasonal west nile virus infection risk in humans in northern greece, 2020–2024",
+        "journal": "Scientific Reports",
+        "doi": null,
+        "authors": [
+          "Anastasia Angelou",
+          "Areti Pappa",
+          "P. Markov",
+          "S. Gewehr",
+          "N. Stilianakis",
+          "Ioannis Kioutsioukis"
+        ],
+        "abstract": "This study introduces a novel forecasting tool for West Nile Virus (WNV) risk at the municipal level, based on a previously developed climate-dependent epidemiological model coupled with a data-driven model and field data in an ensemble framework. The modelling system was evaluated at the municipal level in the regions of Central Macedonia (RCM) and Thessaly (RTH) in Greece for the period 2020–2024 and classifies the municipalities according to the risk level of occurrence of a WNV human case (WNVhc) within each forecast season. The modelling system produces seasonal forecasts updated monthly throughout the entire mosquito breeding season (April-September). From the first forecast of the year, WNVhc were correctly predicted at 71% of the infected municipalities in RCM and 60% of the infected municipalities in RTH, percentages that increased by at least 20% after July when surveillance data were incorporated. The observed number of infected humans was within the predicted range, highlighting the part of the region with an expected outbreak. The approach shows that the coupling of a climate-dependent epidemiological model at local level with a data-driven model, incorporating entomological data to predict the risk of WNVhc, can be a useful tool in planning control strategies. Supplementary Information The online version contains supplementary material available at 10.1038/s41598-025-91996-9.",
+        "url": "https://www.semanticscholar.org/paper/26d299e9d122197c800bfbe77bd77a2201a65997"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "New enemies: contribution of Culex perexiguus in the transmission dynamic of West Nile virus.",
+        "journal": "Pathogens and global health",
+        "doi": null,
+        "authors": [
+          "E. Fesce",
+          "M. Ferraguti"
+        ],
+        "abstract": "Vector-borne pathogens like West Nile virus (WNV), an emerging zoonotic arbovirus, are strongly influenced by mosquito community dynamics. WNV is maintained between birds and mosquitoes, with humans and other mammal species (such as equids) as dead-end hosts. In Spain, the role of Culex perexiguus as main vector of WNV is gaining significance over Cx. pipiens due to differences in feeding behavior, and vector competence, and ecological preferences that affect WNV transmission. Using a SEIR (Susceptible-Exposed-Infectious-Recovered) model, we examined how mosquito abundance and feeding preferences impact WNV spread in a Mediterranean region. Our results suggest that, under the conditions simulated, Cx. pipiens alone is unlikely to sustain WNV transmission in the study area, whereas Cx. perexiguus may contribute more substantially to outbreak dynamics. Increased avian-feeding preferences were associated with higher outbreak intensity, although the basic reproduction number (R0) remained below one in all scenarios. Sensitivity analyses highlighted that bite rates and abundance of Cx. perexiguus are key drivers of WNV spread in our model. Furthermore, a dilution effect was observed when Cx. pipiens fed more frequently on dead-end hosts, which contributed to lowering R0. Our findings underscore the need for species-specific vector surveillance to inform public health interventions and control strategies for WNV and other mosquito-borne diseases.",
+        "url": "https://www.semanticscholar.org/paper/1fd98af12c6d74f3c38a4f2698affe21986d4b55"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Effects of West Nile virus on behavioral and cognitive performance, cortical Aβ pathology, viral loads, and immune measures of middle-aged NL-G-F/E3 and NL-G-F/E4 mice",
+        "journal": "Frontiers in Aging Neuroscience",
+        "doi": null,
+        "authors": [
+          "Abigail O’Niel",
+          "C. Parkins",
+          "Alexandra Pederson",
+          "Elizabeth Saltonstall",
+          "Emily Bunnell",
+          "Ria Aggarwal",
+          "Phoebe Sandholm",
+          "Kat Kessler",
+          "Henry F. Harrison",
+          "Jessica L. Smith",
+          "Alec J. Hirsch",
+          "Jacob Raber"
+        ],
+        "abstract": "Introduction West Nile Virus (WNV) can cause severe and long-lasting neurological disease and results in some neuropathology and neuroinflammation seen in Alzheimer’s disease (AD). Exposure to WNV might impact AD-relevant behavioral and cognitive performance and neuropathology via AD-susceptibility genes (i.e., E4) and by inducing neuroinflammation (i.e., increases in TCR-α, IFN-γ, TNF-α, and CXCL- 10). There are three human apolipoprotein E (E) isoforms, which play a role in cholesterol metabolism: E2, E3, and E4. Compared to E3, E4 is an AD risk factor. Methods We crossed knock-in (KI) mice expressing human amyloid precursor protein (APP) containing the dominant NL-G-F mutations with human apoE targeted replacement (TR) mice and used middle-aged NL-G-F/E3 and NL-G-F/E4 mice to assess the role of prior WNV (subtype Kunjin virus) (KUNV) exposure on hAPP/Aβ-induced behavioral alterations, cognitive injury, circadian body temperatures, viral loads, neuropathology, and transcript levels of four immune measures important in the detrimental effects of KUNV on brain function. Results KUNV affected physiological, behavioral, cognitive, amyloid pathology, viral load, and immune measures in middle aged NL-G-F mice in an apoE isoform-dependent fashion. NL-G-F/E4 mice were more susceptible to KUNV induced cognitive injury and prolonged viral load in the cortex. Discussion These results support an important apoE isoform-dependent role in modulating phenotypes in the NL-G-F AD mouse model following WNV exposure.",
+        "url": "https://www.semanticscholar.org/paper/fecf4b7e51f46963725848bdb4a547e2e9842fb4"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Human type I interferons protect Vero E6 and ARPE-19 cells against West Nile virus and are neutralized by pathogenic autoantibodies",
+        "journal": "Scientific Reports",
+        "doi": null,
+        "authors": [
+          "A. Ferrari",
+          "I. Cassaniti",
+          "F. Rovida",
+          "D. Lilleri",
+          "Stefania Croce",
+          "Francesca Trespidi",
+          "Stefano Ghirardello",
+          "A. Gervais",
+          "Shen-Ying Zhang",
+          "J. Casanova",
+          "A. Borghesi",
+          "F. Baldanti"
+        ],
+        "abstract": "Auto-antibodies (auto-Abs) that neutralize type I interferons (IFNs) have been implicated in severe viral infections, including ~ 40% of cases of West Nile virus (WNV) neuroinvasive disease (WNND). Developing robust in vitro models to evaluate the protective effects of type I IFNs against viral infection, as well as the disruptive effects of auto-Abs, is essential for understanding disease pathogenesis and identifying patients at risk. In this study, we used Vero E6 and ARPE-19 cell lines to investigate the ability of type I (IFN-α, IFN-β, IFN-ω), type II (IFN-γ), and type III (IFN-λ1) IFNs to restrict WNV infection. Our results demonstrate that IFN-α, IFN-β, and IFN-ω effectively protect ARPE-19 cells from WNV infection, with IFN-β exhibiting the strongest antiviral effect. In contrast, Vero E6 cells required higher concentrations of IFN-ω to achieve comparable protection. Neither IFN-γ nor IFN-λ1 conferred protection in either cell line. We further screened serum samples from WNV-infected patients for auto-Abs neutralizing type I IFNs. Our findings confirm that the ARPE-19-based assay is consistent with other established methods for detecting neutralizing auto-Abs against type I IFNs. This simple and reliable assay offers a valuable tool for assessing the antiviral effects of type I IFNs and the neutralizing activity of auto-Abs in both research and clinical settings. Future studies should aim to validate the clinical utility of the ARPE-19-WNV infection model on a larger scale. Supplementary Information The online version contains supplementary material available at 10.1038/s41598-025-89312-6.",
+        "url": "https://www.semanticscholar.org/paper/c644bd3f5083d66952273803873c79e8b1024459"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Predicting West Nile Virus risk across Europe for the current and future conditions",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "A. J. Withers",
+          "S. Croft",
+          "R. Budgey",
+          "D. Warren",
+          "N. Johnson"
+        ],
+        "abstract": "Vector-borne diseases have significant impacts on animal and human health globally, and these impacts are likely to increase in the future due to environmental and climate change. Understanding where to target surveillance and control measures to mitigate the impacts of emerging vector-borne diseases can be challenging when pathogens or disease is absent. In this study, we utilise a species distribution modelling approach previously applied to the UK to predict areas at higher risk of mosquito-borne disease across Europe, using West Nile Virus (WNV) as a case study. WNV is an Orthoflavivirus that is naturally transmitted between Culex mosquitoes and a range of avian species. However, it can spread to hosts such as humans and horses where it has the potential to lead to severe illness and mortality. Suitability predictions for Culex (Cx. pipiens and Cx. modestus) and avian hosts (mainly Passerine species) are made across Europe to determine potential risk of WNV circulation and establishment. These maps are then combined with information on human and horse density to determine risk to human and equine health. The resulting risk maps reveal that across Europe, there are areas of higher and lower risk that are predominantly driven by vector suitability as avian hosts are widespread. These predictions are projected into the future in 2100 using best- and worst-case Shared Socioeconomic Pathways (SSP1 and SSP5 respectively) to determine how risk may change over time, revealing that some areas see an increase in suitability for both vectors and hosts leading to higher risk (e.g., central England and northern Belgium) whilst other areas see a decline in suitability and consequently lower WNV risk (e.g., northern Italy and western Germany). Overall, this work will improve understanding of mosquito-borne disease risk in changing environments and demonstrates how species distribution modelling can be used to aid contingency preparedness by highlighting areas at higher risk of emerging disease.",
+        "url": "https://www.semanticscholar.org/paper/82b845261c2a6bd0d09fbfefbb9c64584484dbbf"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Effect of mosquito saliva from distinct species on human dermal endothelial cell function in vitro and West Nile virus pathogenesis in vivo",
+        "journal": "Emerging Microbes & Infections",
+        "doi": null,
+        "authors": [
+          "Imke Visser",
+          "Vincent Vaes",
+          "P. van Run",
+          "E. M. Marshall",
+          "Lars Vermaat",
+          "Charlotte Linthout",
+          "D. Dekkers",
+          "J. Demmers",
+          "Marion P. G. Koopmans",
+          "C. Koenraadt",
+          "Melanie Rissmann",
+          "Barry Rockx"
+        ],
+        "abstract": "During probing and feeding, an infected mosquito injects both virus and saliva into the host skin. The presence of mosquito saliva in the skin increases arbovirus pathogenesis in the bitten host, however the exact mechanism behind this remains to be determined. It is hypothesized that disease enhancement is dependent on the function of the dermal endothelium, where an increased permeability aids in the influx of virus-susceptible cells to the bite site and therefore more cells for the virus to replicate in. Here, we investigate the effects of saliva from Culex and Aedes species on the human dermal endothelial cell function in vitro. Furthermore, we investigate the effect of Culex saliva on West Nile virus (WNV) pathogenesis in a mouse model. We found that salivary gland extract from anthropophilic mosquito species (Aedes and Cx. pipiens molestus) induce permeability of the human dermal endothelium, while an ornithophilic mosquito species (Cx. pip. pipiens) does not. We identified that this effect is likely due to the presence of protease(s) in Cx. pipiens molestus saliva that are absent in Cx. pipiens pipiens saliva. In addition, we show that the presence of Culex saliva at the WNV inoculation site in vivo leads to more consistent weight loss, increased permeability in the inoculation site, and increased mortality compared to inoculation of WNV alone. Identification and characterization of novel salivary proteins from similar but genetically distinct mosquito species will advance the development of intervention methods to combat potential transmission risks and disease severity of emerging mosquito-borne pathogens.",
+        "url": "https://www.semanticscholar.org/paper/c129195c9c1959a4483bac64a14d97808a652359"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "AI-Driven Surveillance of West Nile Virus in Maryland: Integrating Vector Identification with Environmental and Epidemiological Insights",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "Khushi Anil Gupta",
+          "Hannah Markle",
+          "Alyssa Schultz",
+          "Brian Prendergast",
+          "Margaret Glancey",
+          "Autumn Goodwin",
+          "Tristan Ford",
+          "Roy Faiman"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/2fece380b43057c042284b620627eb2570ad37eb"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "A Scoping Review of Preclinical Research on Monoclonal Antibody Development for Prophylaxis and Treatment of West Nile Virus Infections",
+        "journal": "Viruses",
+        "doi": null,
+        "authors": [
+          "Amanda E. Calvert",
+          "Kerri L. Miazgowicz",
+          "Bailey Atkinson",
+          "Audrey Long",
+          "Elisa Thrasher",
+          "Aaron C. Brault",
+          "R. Nett"
+        ],
+        "abstract": "West Nile virus (WNV) causes thousands of arboviral infections in the United States each year. Patients with immune-compromising conditions and elderly people are at higher risk of severe WNV neuroinvasive disease (WNND). Despite its broad endemicity nationwide, no U.S. Food and Drug Administration-approved vaccine or therapeutic treatments exist. We summarized existing peer-reviewed literature on the preclinical development of monoclonal antibody (MAb) prophylaxis and therapeutics for the prevention and treatment of WNND. Five bibliographical databases (CINAHL, Cochrane Library, Embase, MEDLINE, and Scopus) were searched for applicable research studies performed from 1 January 1998 to 1 May 2025. In total, 2347 titles and abstracts were screened, 263 full-text publications reviewed, and 25 studies included. Studies included detailed preclinical development and evaluations of MAbs targeting the envelope (E) protein (n = 13), other viral proteins (n = 3), flaviviral cross-protective monoclonal antibodies (n = 4), and novel antibody configurations or delivery methods (n = 5). The most well-studied MAb, E16, targeting E- Domain III (E-DIII), was effective at inhibiting and treating WNND in experimental animal models. No work investigated ways to traffic therapeutic antibodies across the blood–brain barrier. This review summarizes the current research in the development of monoclonal antibody therapeutics for WNV and addresses gaps in the knowledge for future consideration.",
+        "url": "https://www.semanticscholar.org/paper/ff8c01d4f727184be2e186f0cb0e4da8076042d6"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Mapping the bird reservoir potential for West Nile virus in Europe and its relationship with disease occurrence in humans",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "J. Bastard",
+          "R. Metras",
+          "B. Durand"
+        ],
+        "abstract": "Background. West Nile virus (WNV) is a zoonotic mosquito-borne Flavivirus, with bird populations reservoirs. Although often asymptomatic, infection in humans can cause febrile symptoms and more rarely, severe neurological symptoms that may lead to death. Mapping WNV bird reservoir is important towards understanding the distribution of WNV cases in humans. Aim. Our objective was to generate a WNV Reservoir Index (RI), quantifying the bird reservoir potential across Europe, and validate the RI using human cases notifications. Methods. We first used a bird traits-based model to estimate WNV seroprevalence in 150 European passerine bird species. This allowed us to build a map of the WNV bird RI across Europe. To validate this metric, we investigated its association with WNV human cases notified at the NUTS administrative region scale, using a Besag-York-Mollie spatial model in a Bayesian framework. Results. We first identified eco-ethological characteristics associated with higher WNV seroprevalence in wild birds. Second, we mapped the RI that showed a strong spatial heterogeneity across Europe, with overall high RI values (i.e. a high reservoir potential for WNV) in Central and Eastern Europe, despite variations at small geographical scale. At the NUTS level, the RI was positively associated with the number of years with notified WNV human cases between 2016 and 2023. Conclusions. We provide a map quantifying the suitability for WNV to circulate in the bird reservoir. This allows to target surveillance efforts in areas at risk for WNV zoonotic infections in the future.",
+        "url": "https://www.semanticscholar.org/paper/c4dfb1e4a523263123418f99befe502ad1a4d185"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Using mosquito and arbovirus data to computationally predict West Nile virus in unsampled areas of the Northeast United States",
+        "journal": "PNAS Nexus",
+        "doi": null,
+        "authors": [
+          "Joseph R McMillan",
+          "James Sun",
+          "Luis Fernando Chaves",
+          "Philip M Armstrong"
+        ],
+        "abstract": "Abstract Predicting and projecting risk of West Nile virus (WNV) to humans in areas without mosquito surveillance data is a key limitation of many WNV surveillance programs. To better inform risk of WNV, we analyzed 20 years (2001–2020) of point-level mosquito surveillance data from Connecticut (CT), United States, using machine learning methods to determine the most informative weather variables and land cover classes associated with monthly Culex pipiens collections and WNV detections in mosquitoes. All training models were assessed based on explained deviance, root mean square error, and parsimony of included variables then optimized using a backward selection process. We used these training models to create a predictive mapping framework that could spatially extrapolate the monthly risk of WNV activity in mosquitoes across the entirety of the Northeast United States (CT, Maine, Massachusetts, New Hampshire, New Jersey, New York, Rhode Island, and Vermont) at a 4 × 4 km resolution. We then validated WNV detection probabilities against observed human cases at the town level in CT and the county level for northeastern states using generalized linear (mixed effects) models. Our predicted town- and county-level WNV detection probabilities in mosquitoes were significantly associated with the odds of a human case occurring within the town and/or county. This methodology increases the utility of point-source mosquito surveillance data by creating a flexible workflow for predicting risk of WNV to humans across the Northeast United States using easily accessible online data sources.",
+        "url": "https://www.semanticscholar.org/paper/62b5bb1a7f3e030a99960fca20432cb07e4d3a22"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Reconstructing the silent circulation of West Nile Virus in a Caribbean island during 15 years using sentinel serological data",
+        "journal": "PLOS Neglected Tropical Diseases",
+        "doi": null,
+        "authors": [
+          "Celia Hamouche",
+          "Jennifer Pradel",
+          "N. Pagès",
+          "Véronique Chevalier",
+          "Sylvie Lecollinet",
+          "J. Bastard",
+          "B. Durand"
+        ],
+        "abstract": "The dynamics of zoonotic infectious diseases with silent circulation may be imperfectly understood and monitored using passive (or reactive) epidemiological surveillance data only, highlighting the interest of quantitative methods like modelling. West Nile virus (WNV) is a widespread mosquito-borne virus transmitted from birds to \"dead-end\" hosts including humans and horses, in whom it can be fatal. It was first detected in Guadeloupe archipelago, Caribbean, in 2002, although no WNV clinical case in humans nor horses had been reported before 2024. Undetected infections represent a risk as WNV can be transmitted via blood and organ donations. In Guadeloupe, epidemiological surveillance started in 2002 in sentinel chickens and horses and in 2015 in mosquitoes, to detect WNV and to improve knowledge on its epidemiology and dynamics. In order to reconstruct the WNV force of infection (FOI), we built a model assessing different hypotheses regarding its dynamics using serological results in respectively 1,022 and 3,649 blood samples collected from 256 horses and 317 chickens between 2002 and 2018. We fitted the model to the serological data using Markov Chains Monte Carlo. We found that WNV FOI in Guadeloupe Island presented both within-year (seasonal) and between-years fluctuations. We identified three main episodes of WNV circulation on the island between 2002 and 2017. During years with circulation, the FOI was predicted to be highest around the months of October-November, although transmission could occur all year long. We estimated a very low weekly seroreversion rate, which is consistent with a lifelong persistence of WNV IgG antibodies in many infected individuals. To conclude, combining longitudinal serological data to a mathematical model allowed reconstructing the recurrent and silent circulation of WNV in this Caribbean island, which could improve surveillance design for better virus detection.",
+        "url": "https://www.semanticscholar.org/paper/9342bb9870243924ed42bea3d35cadebb2b4b000"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Reprogramming of liver metabolism during West Nile virus infection unveils novel aspects of disease pathophysiology",
+        "journal": "Molecular Medicine",
+        "doi": null,
+        "authors": [
+          "Patricia Mingo-Casas",
+          "Ana-Belén Blázquez",
+          "Josefina Casas",
+          "Ana Esteban",
+          "E. Escribano-Romero",
+          "P. J. Sánchez-Cordón",
+          "Nereida Jiménez de Oya",
+          "Juan-Carlos Saiz",
+          "Miguel A. Martín-Acebes"
+        ],
+        "abstract": "Background West Nile virus (WNV) is a neurotropic mosquito-borne flavivirus responsible for outbreaks of encephalitis and meningitis worldwide. About 20% of infected patients exhibit abnormal liver function tests, although the participation of this organ in the pathophysiology of the disease remains unclear. To fill this gap, this study explores changes in liver metabolism during WNV infection. Methods Given the relevance of the liver as a major immune and metabolic organ, the changes in response to WNV infection were analyzed in the mouse model combining transcriptomics, lipidomics and histopathological analyses. Results Despite the absence of detectable viral replication in the liver, infection resulted in hepatic transcriptomic reprogramming that affected inflammation, immunity, biological oxidation and lipid metabolisms. Changes in the expression of genes related to glutathione metabolism, detoxification reactions, fatty acid metabolism (fatty acid oxidation and fatty acyl-CoA biosynthesis), phospholipid synthesis (phosphatidylcholine and phosphatidylethanolamine), sphingolipid synthesis, sterol metabolism and lipid droplet organization were identified. The reduction in glutathione in the liver of infected animals was confirmed and lipidomic analyses showed an increase in the content of sphingolipids, triacylglycerols and cholesteryl esters. A decrease in the cholesterol, phosphatidylcholine and phosphatidylethanolamine levels was also observed. Moreover, histopathological findings supported the development of steatosis in one-third of WNV-infected animals. Conclusions The discovery of these underestimated metabolic aspects of the infection repurposes the impact of WNV on liver function. These results will contribute to a better understanding of the physiopathology of the disease and warrant special attention to liver function during WNV infection. Supplementary Information The online version contains supplementary material available at 10.1186/s10020-025-01300-8.",
+        "url": "https://www.semanticscholar.org/paper/b64edfa087c64914048a979435a5cff0f5bdc673"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Integrating Wind Speed Into Climate‐Based West Nile Virus Models: A Comparative Analysis in Two Distinct Regions",
+        "journal": "GeoHealth",
+        "doi": null,
+        "authors": [
+          "Eric R. Bump",
+          "Anita Bharadwaja",
+          "Sean Simonson",
+          "Emma Ortega",
+          "Michael C. Wimberly"
+        ],
+        "abstract": "Abstract Since its introduction to North America in 1999, West Nile virus (WNV) has become the most widespread mosquito‐borne disease in the United States. Climatic conditions significantly influence transmission dynamics. While temperature, precipitation, and humidity are known to affect mosquito populations and virus replication, wind speed is often neglected in transmission models despite its potential to alter mosquito behavior and facilitate mosquito dispersal. This study incorporates wind speed into climate‐based WNV models to compare its effects in Louisiana and South Dakota, two U.S. states with contrasting climates, land cover, and vector and host species. From 2004 to 2022, we analyzed weekly WNV human case data in relation to daily meteorological data. The relationships were modeled using logistic regression with distributed lag effects. Incorporating wind speed consistently enhanced the fit of climate‐based models across both states, as evidenced by the Akaike Information Criterion. Higher‐than‐normal wind speeds were associated with decreased WNV cases over specific lag periods, suggesting that increased wind speed may inhibit mosquito activity and reduce virus transmission. Differences in how temperature and moisture‐related variables influenced the two regions highlight the importance of considering regional climatic contexts. These findings demonstrate that incorporating wind speed can enhance meteorological models of mosquito‐borne diseases and reinforce the importance of considering a broader range of climatic factors beyond temperature and precipitation. Understanding these regional variations is essential for predicting local climatic influences on disease transmission, which can support the implementation of more targeted and effective public health strategies.",
+        "url": "https://www.semanticscholar.org/paper/842955f764d13518b3c8a60f5afa42a76d435b70"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Tracking West Nile virus dynamics using viral loads from trapped mosquitoes",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Punya Alahakoon",
+          "Ian Marchinton",
+          "J. Fauver",
+          "J. Hay"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/1b45ae5f70f1bfb8a502de972528bfe14ff8dde0"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "A Regionally Determined Climate-Informed West Nile Virus Forecast Technique",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "R. D. Harp",
+          "K. Holcomb",
+          "S. Benjamin",
+          "B. Green",
+          "H. Jones",
+          "M. A. Johansson"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/239578f606c8b05860f089727ecafd9f46b5eb50"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: HTTP 404",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: HTTP 404; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Modelling vector and host distributions to inform potential disease risk: A case study of West Nile virus in the United Kingdom.",
+        "journal": "Medical and veterinary entomology",
+        "doi": null,
+        "authors": [
+          "A. J. Withers",
+          "S. Croft",
+          "R. Budgey",
+          "D. Warren",
+          "N. Johnson"
+        ],
+        "abstract": "Vector-borne diseases pose significant global threats to both human and animal health, and their impacts are expected to intensify with ongoing climate change. Understanding the ecological and environmental drivers of these diseases is essential for developing effective surveillance and control strategies. Central to this is knowledge of the distributions of vectors and hosts, and how these may shift in response to environmental changes. In this study, we present a generalisable framework for predicting the current and future distributions of vectors and wildlife hosts using correlative modelling approaches. We integrate these predictions with data on livestock and human populations to inform the potential risk of West Nile virus (WNV) establishment and exposure in the United Kingdom. Currently absent from the United Kingdom, WNV is an orthoflavivirus maintained in a natural transmission cycle between mosquitoes and birds. Spillover into incidental hosts such as humans and horses can result in febrile illness, with severe cases leading to encephalitis and death. Our findings identify regions at elevated risk of WNV establishment where competent avian hosts and mosquito vectors are likely to co-occur and where infected vectors may interact with spillover hosts. We also explore how these risk patterns may evolve by 2100 under different environmental scenarios. Across all scenarios, risk is projected to increase in the south-east of the United Kingdom and decline in northern regions. This work demonstrates how modelling current and future vector and host distributions can inform risk assessments for emerging vector-borne diseases. Such insights are critical for guiding policy decisions and enhancing preparedness for disease incursions in a changing environment.",
+        "url": "https://www.semanticscholar.org/paper/642742b1bd5f7ab75a1b350bf295e3e450f8a493"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Integration of Information Technology in West Nile Virus Surveillance\nin the Russian Federation",
+        "journal": "ЗДОРОВЬЕ НАСЕЛЕНИЯ И СРЕДА ОБИТАНИЯ - ЗНиСО / PUBLIC HEALTH AND LIFE ENVIRONMENT",
+        "doi": null,
+        "authors": [
+          "D. Nikitin",
+          "S. K. Udovichenko",
+          "E. Putintseva",
+          "A. V. Toporkov"
+        ],
+        "abstract": "Introduction: The relevance of the problem discussed in this article is determined by the demand for effective ITassisted surveillance of the causative agent of West Nile fever at the national level. Objective: To summarize the experience in integrating information technology into practical monitoring of the West Nile virus in the Russian Federation and to outline opportunities for improvement. Materials and methods: We reviewed publications issued in 1999–2024 and indexed in international and domestic scientific bibliographic databases (PubMed, Scopus, and Russian Science Citation Index), reference epidemiologic editions, and electronic information resources. The search was conducted using the following keywords: West Nile fever, information technology, epidemiological surveillance, and pathogen monitoring. Of 6,799 search results, we selected 20 full-text publications corresponding to the purpose of the study and describing integration of various IT aspects in West Nile virus monitoring in the Russian Federation. Results: The developed solutions are widely implemented in epidemiological surveillance subsystems at all organizational levels. They enable case identification, record-keeping of circulating virus genotypes, monitoring organization, and adjustment of sanitary and anti-epidemic (preventive) measures. Their prospects include establishing opportunities and regulatory frameworks, development of a unified platform for data accumulation and inventory of the natural foci of infection, and improving research into epidemiological situation forecasting. Conclusions: The efficiency of West Nile virus surveillance has been significantly improved through created electronic databases, systems of information analysis, and GIS-based developments. However, the task of forecasting the epidemiological situation using predictive analytics models remains unresolved.",
+        "url": "https://www.semanticscholar.org/paper/54efc0b9881ee1f55325bb9215044a950b3114d3"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Evaluation of the 2022 West Nile virus forecasting challenge, USA",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "R. D. Harp",
+          "K. Holcomb",
+          "Renata Retkute",
+          "Alisa Prusokiene",
+          "Augustinas Prusokas",
+          "Zeynep Ertem",
+          "M. Ajelli",
+          "A. G. Kummer",
+          "M. Litvinova",
+          "S. Merler",
+          "A. P. Y. Piontti",
+          "Piero Poletti",
+          "A. Vespignani",
+          "André B. B. Wilke",
+          "A. Zardini",
+          "Kelly Helm Smith",
+          "Philip M Armstrong",
+          "N. DeFelice",
+          "Alexander Keyel",
+          "John Shepard",
+          "Rebecca Smith",
+          "Andrew Tyre",
+          "John M Humphreys",
+          "L. Cohnstaedt",
+          "Saman Hosseini",
+          "Caterina M. Scoglio",
+          "Morgan E. Gorris",
+          "Martha Barnard",
+          "S. K. Moser",
+          "Julie A. Spencer",
+          "Maggie S J McCarter",
+          "Christopher Lee",
+          "Melissa S. Nolan",
+          "Christopher M Barker",
+          "J. E. Staples",
+          "Randall J. Nett",
+          "M. A. Johansson"
+        ],
+        "abstract": "Background West Nile virus (WNV) is the most common cause of mosquito-borne disease in the continental USA, with an average of ~1200 severe, neuroinvasive cases reported annually from 2005 to 2021 (range 386–2873). Despite this burden, efforts to forecast WNV disease to inform public health measures to reduce disease incidence have had limited success. Here, we analyze forecasts submitted to the 2022 WNV Forecasting Challenge, a follow-up to the 2020 WNV Forecasting Challenge. Methods Forecasting teams submitted probabilistic forecasts of annual West Nile virus neuroinvasive disease (WNND) cases for each county in the continental USA for the 2022 WNV season. We assessed the skill of team-specific forecasts, baseline forecasts, and an ensemble created from team-specific forecasts. We then characterized the impact of model characteristics and county-specific contextual factors (e.g., population) on forecast skill. Results Ensemble forecasts for 2022 anticipated a season at or below median long-term WNND incidence for nearly all (> 99%) counties. More counties reported higher case numbers than anticipated by the ensemble forecast median, but national caseload (826) was well below the 10-year median (1386). Forecast skill was highest for the ensemble forecast, though the historical negative binomial baseline model and several team-submitted forecasts had similar forecast skill. Forecasts utilizing regression-based frameworks tended to have more skill than those that did not and models using climate, mosquito surveillance, demographic, or avian data had less skill than those that did not, potentially due to overfitting. County-contextual analysis showed strong relationships with the number of years that WNND had been reported and permutation entropy (historical variability). Evaluations based on weighted interval score and logarithmic scoring metrics produced similar results. Conclusions The relative success of the ensemble forecast, the best forecast for 2022, suggests potential gains in community ability to forecast WNV, an improvement from the 2020 Challenge. Similar to the previous challenge, however, our results indicate that skill was still limited with general underprediction despite a relative low incidence year. Potential opportunities for improvement include refining mechanistic approaches, integrating additional data sources, and considering different approaches for areas with and without previous cases. Graphical Abstract Supplementary Information The online version contains supplementary material available at 10.1186/s13071-025-06767-2.",
+        "url": "https://www.semanticscholar.org/paper/ba430eaf9032f2e5efafee0cac3390ba2cc90567"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Mathematical Model for Spatial and Temporal Risk Analysis of West Nile Virus Transmission in Bavaria, Germany",
+        "journal": "Simul. Notes Eur.",
+        "doi": null,
+        "authors": [
+          "O. C. Mbaoma",
+          "S. Thomas",
+          "Carl Beierkuhnlein"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/9554851e22dfdcb20cff13e75f6def6a4b99be32"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "First establishment of a Duck Model for in vivo and in vitro studies of West nile virus (Kunjin subtype)",
+        "journal": "Poultry Science",
+        "doi": null,
+        "authors": [
+          "Zhenlong Wu",
+          "Tao Hu",
+          "Zhou Zhou",
+          "Yu He",
+          "Tao Wang",
+          "Mingshu Wang",
+          "R. Jia",
+          "Dekang Zhu",
+          "Mafeng Liu",
+          "Xinxin Zhao",
+          "Qiao Yang",
+          "Ying Wu",
+          "Shaqiu Zhang",
+          "Juan Huang",
+          "X. Ou",
+          "Di Sun",
+          "B. Tian",
+          "A. Cheng",
+          "Shun Chen"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/a9162f23c99d83e0a385a433b6c194cc91b2e553"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Pattern dynamics analysis and application of West Nile virus spatiotemporal models based on higher-order network topology.",
+        "journal": "Bulletin of mathematical biology",
+        "doi": null,
+        "authors": [
+          "Linhe Zhu",
+          "Tongtong Zheng"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/a1c41f684cbd93e3746e9264592aa29fa3553df1"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Climate Anomaly Sums as a Researching Tool for the Epidemic Process \nof West Nile Fever",
+        "journal": "Bulletin of Baikal State University",
+        "doi": null,
+        "authors": [
+          "D. Novikov",
+          "Marina Kovaleva"
+        ],
+        "abstract": "Long-term dynamics of climate indicators is a significant factor determining the course of the West Nile fever epidemic process. Based on epidemiological monitoring data and climate modeling results, a search was made for new predictors of sporadic outbreaks that can expand the understanding of the logic of the spread of the fever pathogen using the example of a large endemic focus in the Volgograd region. Based on the ecological characteristics of the strain circulating in the region, a new approach to determining the time frame of the epidemic season is proposed, taking into account the optimal temperatures for the development of the virus. The relationship between positive and negative climate anomalies (air temperature, precipitation) and West Nile fever incidence was studied. The strongest correlations were demonstrated by polynomial cubic models, including the sums of negative precipitation anomalies and the sums of positive temperature anomalies. The study emphasizes the importance of shifting the epidemiological paradigm towards taking into account climate anomalies when assessing the risks of the spread of vector-borne infections.",
+        "url": "https://www.semanticscholar.org/paper/3f78d115a5fc898a6faf42864193d18a08113378"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Characterization of overwintering sites (hibernacula) of the West Nile vector Culex pipiens in Central Italy",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "F. Romiti",
+          "Riccardo Casini",
+          "I. Del Lesto",
+          "A. Magliano",
+          "A. Ermenegildi",
+          "Sarah Droghei",
+          "Silvia Tofani",
+          "M. Scicluna",
+          "V. Pichler",
+          "Adriana Augello",
+          "Francesco Censi",
+          "Paolo Luigi Scaringella",
+          "Giovanni Mastrobuoni",
+          "Debora Bacciotti",
+          "Alberto Nencetti",
+          "C. De Liberato"
+        ],
+        "abstract": "Background In cool-temperate regions, mosquitoes face winter conditions that hinder their development. To cope with cold temperatures, species like Culex pipiens, a major vector of West Nile virus (WNV), diapause as adult females in overwintering shelters known as hibernacula. This study aimed to identify and characterize the overwintering sites of Cx. pipiens in central Italy, analyzing the environmental factors influencing the abundance of the two biological forms, Cx. pipiens pipiens and Cx. pipiens molestus. Methods Field surveys were conducted in Lazio and Tuscany over two consecutive winters (2022/2023 and 2023/2024). Overwintering mosquitoes were collected from different hibernacula types, including natural caves, artificial cavities and buildings. Environmental variables such as temperature, humidity, light intensity and vapor pressure deficit (VPD) were recorded in the entrance and inner rooms of each hibernaculum. Mosquito species and Cx. pipiens forms were identified through morphological and molecular analyses. A beta regression model was applied to assess the relationship between environmental factors and Cx. pipiens abundance. Redundancy analysis (RDA) was used to explore the impact of small- and landscape-scale variables on biological forms distribution. Results Culex pipiens presence was confirmed in 24 hibernacula and represented the most abundant species, with Anopheles maculipennis s.l., Culiseta annulata and Culex hortensis accounting for 0.4% of the collected individuals. Comparing the entrance and inner rooms, a higher abundance of Cx. pipiens s.s. was observed in the darker environments, characterized by a humidity of 50–75%, a temperature of 10–20 °C and a VPD of 0.3–0.8 kPa. Inside the inner rooms, Cx. pipiens females preferred lower temperatures, light intensity and humidity, combined with higher VPD. The RDA highlighted that Cx. pipiens pipiens was associated with low temperatures and VPD and high humidity levels, preferring semi-natural areas. Culex pipiens molestus was positively associated with artificial areas. Hybrids were observed in several types of hibernacula. Conclusions This study provides insights into the overwintering ecology of Cx. pipiens in southern Europe, highlighting the environmental factors driving its abundance. These results may inform future vector control strategies aimed at reducing mosquito populations and limiting WNV diffusion in temperate regions. Graphical Abstract Supplementary Information The online version contains supplementary material available at 10.1186/s13071-025-06710-5.",
+        "url": "https://www.semanticscholar.org/paper/fe55e676601747a79fae183b1c5227ea16802c27"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Evaluation of hesperidin as a potential larvicide against Culex pipiens with computational prediction of its mode of action via molecular docking",
+        "journal": "Scientific Reports",
+        "doi": null,
+        "authors": [
+          "Abdullah Haikal",
+          "Mahmoud Kamal",
+          "E. Hosni",
+          "Yhiya Amen"
+        ],
+        "abstract": "Hesperidin, a natural flavanone glycoside predominantly found in citrus fruits, has gained attention for its wide-ranging biological activities, including potential insecticidal properties. Culex pipiens, commonly known as the northern house mosquito, is a major vector of several human pathogens, such as the West Nile virus and filariasis, making it a key target in the fight against vector-borne diseases. In this study, we evaluated the larvicidal activity of Hesperidin against Culex pipiens larvae, assessing its potential as an alternative to chemical insecticides. Hesperidin demonstrated potent larvicidal effects, with a lethal concentration 50 (LC50) of 570.3 ± 0.04 µg/mL, outperforming the conventional insecticide Chlorpyrifos 588.3 ± 0.28 µg/mL in efficacy. Molecular docking simulations revealed a strong binding affinity between Hesperidin and crucial neuroreceptors in Culex pipiens, particularly acetylcholinesterase (AChE), a key enzyme involved in nerve signal transmission. The interaction between Hesperidin’s hydroxyl groups and the AChE enzyme’s active site suggests that AChE inhibition is the primary mechanism driving Hesperidin’s insecticidal action. These findings position Hesperidin as a promising, environmentally friendly alternative to synthetic insecticides. However, further research is needed to assess its toxicity to non-target organisms and optimize its formulation for broader application in mosquito control.",
+        "url": "https://www.semanticscholar.org/paper/6acb2fd8599b9ba87d05b0107f80f5f6b01e8ca4"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Single VLP lipid-mixing measurements confirm off-pathway state in dengue virus fusion mechanism",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Tasnim Anika",
+          "Fiona Campbell",
+          "Bianca Linden",
+          "Connor J. Criswell",
+          "Miranda Kimm",
+          "Priscilla Li-ning Yang",
+          "R. J. Rawle"
+        ],
+        "abstract": "Dengue virus (DENV) is the causative agent of dengue fever and exerts a substantial healthcare burden worldwide. Like other flaviviruses, DENV must undergo membrane fusion with the host cell in order to initiate infection. This membrane fusion occurs following acidification during endocytosis and is pH dependent. Here, we interrogate whether the mechanism of DENV fusion contains an off-pathway state, such has been reported previously for two other flaviviruses - Zika virus and West Nile virus. To do this, we utilize single particle lipid mixing measurements of DENV virus-like particles (VLPs) to tethered liposomes, together with computational modeling inspired by chemical kinetics. By observing and then modeling the pH dependence of single VLP fusion kinetics, we provide evidence that the DENV fusion mechanism must contain an off-pathway state. Measuring the proportion of VLPs undergoing hemi-fusion over time, we also demonstrate that the off-pathway state appears to be slowly reversible over tens of minutes, at least for some virions. Additionally, we find that late endosomal anionic lipids do not appear to influence the off-pathway mechanism to any great extent. In conjunction with the prior reports on Zika virus and West Nile virus, this work indicates that an off-pathway fusion state may be a feature of flavivirus fusion more broadly. We also note that the platform and mechanistic model described in this study may be useful in elucidating the mechanism of action of small molecule inhibitors of flavivirus fusion developed by our group and others. Statement of Significance Dengue virus (DENV) causes dengue fever and infects an estimated hundreds of millions of people annually. To date, there are no specific antiviral drugs for DENV and limited vaccination options, highlighting the need to better understand this important pathogen. In this report, we investigate the mechanism of DENV membrane fusion, an early step in the viral infectious cycle, using a mix of experimental techniques and computer simulations. We find strong evidence that the DENV fusion mechanism contains an off-pathway state, in which it can get stalled prior to membrane fusion. Understanding this off-pathway state could be an avenue to develop antiviral strategies against DENV and other related viruses.",
+        "url": "https://www.semanticscholar.org/paper/d85f4f823613c4f0e958d3a95b3a00f419a6f319"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Modeling the Impact of Seasonality on Mosquito Population Dynamics: Insights for Vector Control Strategies",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Joseph Baafi",
+          "A. Hurford"
+        ],
+        "abstract": "Mosquitoes are important vectors for the transmission of some major infectious diseases of humans, i.e., malaria, dengue, West Nile Virus and Zika virus. The burden of these diseases is different for different regions, being highest in tropical and subtropical areas, which have high annual rainfall, warm temperatures, and less pronounced seasonality. The life cycle of mosquitoes consists of four distinct stages: eggs, larvae, pupae, and adults. These life stages have different mortality rates and only adults can reproduce. Seasonal weather may affect the population dynamics of mosquitoes, and the relative abundance of different mosquito stages. We developed a stage-structured model that considers laboratory experiments describing how temperature and rainfall affects the reproduction, maturation and survival of different Anopheles mosquito stages, the species that transmits the parasite that causes malaria. We consider seasonal temperature and rainfall patterns and describe the stage-structured population dynamics of the Anopheles mosquito in Ain Mahbel, Algeria, Cape Town, South Africa, Nairobi, Kenya and Kumasi, Ghana. We find that neglecting seasonality leads to significant overestimation or underestimation of mosquito abundance. We find that depending on the region, mosquito abundance: peaks one, two or four times a year, periods of low abundance are predicted to occur for durations ranging from six months (Ain Mahbel) to not at all (Nairobi); and seasonal patterns of relative abundance of stages are sub-stantially different. The region with warmer temperatures and higher rainfall across the year, Kumasi, Ghana, is predicted to have higher mosquito abundance, which is broadly consistent with reported malaria deaths relative to the other countries considered by our study. Our analysis reveals distinct patterns in mosquito abundance across different months and regions. Control strategies often target one specific life stage, for example, applying larvicides to kill mosquito larvae, or spraying insecticides to kill adult mosquitoes. Our findings suggest that differences in seasonal weather affect mosquito stage structure, and that the best approaches to vector control may differ between regions in timing, duration, and efficacy.",
+        "url": "https://www.semanticscholar.org/paper/c46810b7f28644f38ed31c9be8fef35bce24e9c2"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Identifying environmental drivers of Aedes aegypti and Aedes albopictus abundance in the Dallas-Fort Worth metroplex using Random Forest modeling",
+        "journal": "Journal of Medical Entomology",
+        "doi": null,
+        "authors": [
+          "Nathanial O'Dell",
+          "Bethany G. Bolling",
+          "Nina Dacko",
+          "Joseph T Carr",
+          "Bethany Hambrick",
+          "L. F. Chaves",
+          "Joseph R McMillan"
+        ],
+        "abstract": "Abstract Aedes aegypti and Aedes albopictus are 2 medically important vectors that have established populations globally. In the United States, Ae. aegypti populations declined post-Ae. albopictus introduction, though both species now can be readily found throughout the Southern US. Despite overlapping distributions, there are few studies that investigate and compare the drivers of abundance at spatial scales relevant to mosquito control and surveillance districts. To address this limitation, we analyzed longitudinal mosquito surveillance data from the Dallas–Fort Worth metroplex, Texas. Dallas–Fort Worth metroplex is an area of interest due to its rapid population growth, diverse environmental conditions, and prior history with epidemic West Nile virus transmission. We trained a Random Forest model on a subset of Ae. aegypti and Ae. albopictus data and meteorological and sociodemographic variables from Tarrant and Dallas counties to predict the abundance of both species within the Dallas–Fort Worth metroplex. Additionally, we interpolated predictions to map mosquito abundance at unsampled locations. We found that Ae. aegypti abundance was positively correlated with hot and dry conditions within densely populated locations, with mean abundance peaking in the 33rd to the 44th weeks of the year. Ae. albopictus abundance was positively correlated with cooler temperatures in higher socio-economic locations with lower human population density, with mean abundance peaking in the 19th to the 32nd weeks of the year. Our results suggest that the diversity of the Dallas-Fort Worth metroplex’s environmental conditions enable Ae. aegypti and Ae. albopictus to exploit differential niche spaces, which has the potential to influence vector control strategies and disease prevention efforts.",
+        "url": "https://www.semanticscholar.org/paper/ab6dd5dae8cee67deaa5468ed64340462258addb"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Insect-specific virus platforms for arbovirus vaccine development",
+        "journal": "Frontiers in Immunology",
+        "doi": null,
+        "authors": [
+          "Roy A Hall",
+          "Wilson Nguyen",
+          "A. Khromykh",
+          "Andreas Suhrbier"
+        ],
+        "abstract": "Certain insect-specific viruses (ISVs), specifically the mosquito alphaviruses, Eilat and Yada Yada viruses, and orthoflaviviruses, Binjari, Aripo, YN15-283-02 and Chaoyang viruses, have emerged as potential platforms for generation of whole virus vaccines for human and veterinary applications. These ISVs are remarkably tolerant of the substitution of their structural polyproteins with those of alphaviruses and orthoflaviviruses that are pathogenic in humans and/or animals. The resulting ISV-based chimeric vaccines have been evaluated in mouse models and have demonstrated safety and efficacy in non-human primates, crocodiles and pigs. Targets include chikungunya, Venezuelan and eastern equine encephalitis, dengue, Zika, yellow fever, Japanese encephalitis and West Nile viruses. ISV-based chimeric vaccines provide authentically folded tertiary and quaternary whole virion particle structures to the immune system, a key feature for induction of protective antibody responses. These vaccines are manufactured in C6/36 or C7-10 mosquito cell lines, where they grow to high titers, but they do not replicate in vertebrate vaccine recipients. This review discusses the progress of these emerging technologies and addresses challenges related to adjuvanting, safety, and manufacturing.",
+        "url": "https://www.semanticscholar.org/paper/2bc4b9d0213fec7990cac534f32f0beceb6f8a1c"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "On a reaction-diffusion virus model with general boundary conditions in heterogeneous environments",
+        "journal": "",
+        "doi": null,
+        "authors": [
+          "Mingxin Wang",
+          "Lei Zhang"
+        ],
+        "abstract": "To describe the propagation of West Nile virus and/or Zika virus, in this paper, we propose and study a time-periodic reaction-diffusion model with general boundary conditions in heterogeneous environments and with four unknowns: susceptible host, infectious host, susceptible vector and infectious vector. We can prove that such problem has a positive time periodic solution if and only if host and vector persist and the basic reproduction ratio is greater than one, and moreover the positive time periodic solution is unique and globally asymptotically stable when it exists.",
+        "url": "https://www.semanticscholar.org/paper/5ea0bdb9ba9a7ac2580c9c543562c5676422a617"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Modeling Virus-Associated Central Nervous System Disease in Non-Human Primates",
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "authors": [
+          "K. Vail",
+          "Brittany N. Macha",
+          "L. Hellmers",
+          "Tracy Fischer"
+        ],
+        "abstract": "While viral pathogens are often subdivided into neurotropic and non-neurotropic categories, systemic inflammation caused by non-neurotropic viruses still possesses the ability to alter the central nervous system (CNS). Studies of CNS disease induced by viral infection, whether neurotropic or not, are presented with a unique set of challenges. First, because brain biopsies are rarely necessary to diagnose viral-associated neurological disorders, antemortem tissue samples are not readily available for study and human pathological studies must rely on end-stage, postmortem evaluations. Second, in vitro models fail to fully capture the nuances of an intact immune system, necessitating the use of animal models to fully characterize pathogenesis and identify potential therapeutic approaches. Non-human primates (NHP) represent a particularly attractive animal model in that they overcome many of the limits posed by more distant species and most closely mirror human disease pathogenesis and susceptibility. Here, we review NHP infection models of viruses known to infect and/or replicate within cells of the CNS, including West Nile virus, the equine encephalitis viruses, Zika virus, and herpesviruses, as well as those known to alter the immune status of the brain in the absence of significant CNS penetrance, including human immunodeficiency virus (HIV) in the current era of combination antiretroviral therapy (cART) and the coronavirus of severe acute respiratory syndrome (SARS)-CoV−2. This review focuses on viruses with an established role in causing CNS disease, including encephalitis, meningitis, and myelitis and NHP models of viral infection that are directly translatable to the human condition through relevant routes of infection, comparable disease pathogenesis, and responses to therapeutic intervention.",
+        "url": "https://www.semanticscholar.org/paper/89c2a93885e0ec28218285ed3af2be6685310863"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "A MATHEMATICAL MODEL FOR MULTI-CLASS PREDICTION OF AN INTELLIGENT SWOLLEN SHOOT DISEASE SYSTEM BASED ON AGRO-ENVIRONMENTAL DATA",
+        "journal": "Far East Journal of Mathematical Sciences (FJMS)",
+        "doi": null,
+        "authors": [
+          "Brou Pacôme",
+          "Diomande Siaho",
+          "Kouassi Adles Francis",
+          "Oumtanaga Souleymane"
+        ],
+        "abstract": "The cocoa sector, a major economic pillar in West Africa, is facing a concerning phytosanitary threat: Cocoa Swollen Shoot Virus (CSSV), mainly transmitted by mealybugs. This viral disease leads to a progressive decline of plantations, affecting yields and compromising the socio-economic resilience of producers. Faced with the limitations of traditional detection methods, which are often delayed, this study proposes an innovative AI-based approach for predicting CSSV infection stages. Using a multinomial logistic regression model, 250 cocoa plants were simulated with eight agro-environmental variables including plant age, proximity to infection source, soil moisture, ambient temperature, planting density, varietal resistance, phytosanitary treatment, and mealybug level. The supervised classification achieved a recall of 77.4% for healthy plants, but weaker performance for infected classes (21.4% and 6.3%), reflecting the complexity of intermediate stages. An interactive map was generated to geographically visualize predictions, facilitating risk zone prioritization. Additionally, 30-day dynamic simulations showed over 80% loss of healthy plants without intervention. These results confirm the relevance of AI as a predictive tool capable of guiding farmers in their health decisions. Future perspectives include the integration of multi-source data, training on real data, and deployment of embedded tools for predictive, optimized, and sustainable agricultural e-health.",
+        "url": "https://www.semanticscholar.org/paper/4b4f709b637f08ec146ba433cc4330e763eef2f9"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Mapping the habitat suitability of Culex pipiens in Europe using ensemble bioclimatic modelling",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Lara Marcolin",
+          "A. Zardini",
+          "Eleonora Longo",
+          "B. Caputo",
+          "Piero Poletti",
+          "M. Di Marco"
+        ],
+        "abstract": "Anthropogenic pressure on natural ecosystems has profoundly influenced the dynamics of disease vectors, altering their distribution and phenology, and increased the risk of vector-borne diseases. Culex pipiens is a widespread mosquito species and an important vector of zoonotic pathogens in Europe, including West Nile virus. Understanding Cx. pipiens distribution is essential to orient monitoring and mitigation strategies for vector-borne disease risk. Here, we employed an ensemble modelling framework to investigate the climatic and environmental determinants of Cx. pipiens distribution in continental Europe. We integrated high-resolution occurrence data from entomological surveillance with bioclimatic, topographic, and anthropogenic variables. Our findings identified imperviousness as the most influential predictor of Cx. pipiens distribution, with a strong association with human-modified low-elevation areas that reflects its adaptability to anthropogenic environments. The ensemble prediction approach we employed demonstrated higher predictive accuracy and transferability compared to individual models during independent block validation. These results emphasize the need to incorporate anthropogenic factors into disease vector distribution models to support evidence-based surveillance and control strategies, while also offering updated, robust, and spatially explicit predictions of the habitat suitability for Cx. pipiens in Europe. Overall, this study highlights the role of human modification of the natural environment in shaping Cx. pipiens distribution, extending previous knowledge on the role of urban areas.",
+        "url": "https://www.semanticscholar.org/paper/e8d262c7e97db3a83b3ef2106dba41e141862f30"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Artificial intelligence for forecasting climate-driven vector-borne disease outbreaks",
+        "journal": "International Journal of Biological and Pharmaceutical Sciences Archive",
+        "doi": null,
+        "authors": [
+          "Ifeanyi Kingsley Egbuna",
+          "Bayo Abraham Orisakahunsi",
+          "Harrison Agboro",
+          "Ikenna Tochukwu Uduh",
+          "Segun Samson Ojo",
+          "Fatimah Adeola Mustapha",
+          "Aisha Olasunbo Olanrewaju"
+        ],
+        "abstract": "Climate change is intensifying the global burden of vector-borne diseases (VBDs) such as malaria, dengue, Zika, and West Nile virus by altering vector habitats, expanding transmission zones, and increasing outbreak frequency. This review examines how Artificial Intelligence (AI) is transforming the prediction and management of climate-driven VBD outbreaks. It begins by outlining the ecological impact of rising temperatures, shifting precipitation patterns, and extreme weather events on vector populations. The paper then explores AI’s role in public health surveillance, focusing on machine learning and deep learning models—including Random Forests, LSTMs, and CNNs—that integrate climate, environmental, and epidemiological data to improve forecasting accuracy. Real-world applications demonstrate AI’s capacity to outperform traditional models by identifying disease hotspots and enabling timely, targeted interventions. The review also highlights how AI-assisted simulations can project future VBD risks under various climate scenarios, supporting proactive planning and resource allocation. Further, it emphasizes the need for interdisciplinary collaboration and policy frameworks to ensure the ethical, equitable, and transparent use of AI in health systems. Challenges such as data quality, model interpretability, and regional disparities are discussed, along with emerging trends like federated learning and real-time AI dashboards. Ultimately, this paper underscores the potential of AI to enhance global health resilience by enabling adaptive, climate-smart approaches to infectious disease surveillance and control.",
+        "url": "https://www.semanticscholar.org/paper/5106da96588e4d5f8d86c889d956ea00a41a6c32"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Development of nucleic acid-based vaccines against dengue and other mosquito-borne flaviviruses: the past, present, and future",
+        "journal": "Frontiers in Immunology",
+        "doi": null,
+        "authors": [
+          "Muhammad Bashir Bello",
+          "Ahlam Alsaadi",
+          "Asif Naeem",
+          "Sarah A. Almahboub",
+          "Mohammad Bosaeed",
+          "S. Aljedani"
+        ],
+        "abstract": "Due to their widespread geographic distribution and frequent outbreaks, mosquito-borne flaviviruses, such as DENV (DENV), Zika virus (ZIKV), Japanese encephalitis virus (JEV), yellow fever virus (YFV), and West Nile virus (WNV), are considered significant global public health threats and contribute to dramatic socioeconomic imbalances worldwide. The global prevalence of these viruses is largely driven by extensive international travels and ecological disruptions that create favorable conditions for the breeding of Aedes and Culex species, the mosquito vectors responsible for the spread of these pathogens. Currently, vaccines are available for only DENV, YFV, and JEV, but these face several challenges, including safety concerns, lengthy production processes, and logistical difficulties in distribution, especially in resource-limited regions, highlighting the urgent need for innovative vaccine approaches. Nucleic acid-based platforms, including DNA and mRNA vaccines, have emerged as promising alternatives due to their ability to elicit strong immune responses, facilitate rapid development, and support scalable manufacturing. This review provides a comprehensive update on the progress of DNA and mRNA vaccine development against mosquito-borne flaviviruses, detailing early efforts and current strategies that have produced candidates with remarkable protective efficacy and strong immunogenicity in preclinical models. Furthermore, we explore future directions for advancing nucleic acid vaccine candidates, which hold transformative potential for enhancing global public health.",
+        "url": "https://www.semanticscholar.org/paper/126893c691740b9f275db208e2d62d5fc949ba83"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Quantitative evaluation of dogs as sentinels for Rift Valley fever virus circulation in Madagascar",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "H. Ramaroson",
+          "Andres Garchitorena",
+          "Vincent Lacoste",
+          "S. Andriamandimby",
+          "Matthieu Schoenhals",
+          "J. Bastard",
+          "Katerina Albrechtova",
+          "Laure Chevalier",
+          "D. Rakotomanana",
+          "Patrick de Valois Rasamoel",
+          "Modestine Raliniaina",
+          "Heritiana Fanomezantsoa Andriamahefa",
+          "M. Andriamananjara",
+          "Lova Tsikiniaina Rasoloharimanana",
+          "S. Razafimahatratra",
+          "C. A. Ratsimbasoa",
+          "B. Durand",
+          "Chevalier Véronique"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/dfaaa1bfd9445e91d11272899c72bdadbda29752"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Significance of vertical transmission of arboviruses in mosquito-borne disease epidemiology",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "O. C. Mbaoma",
+          "S. M. Thomas",
+          "Carl Beierkuhnlein"
+        ],
+        "abstract": "Mosquito-borne diseases (MBDs) are increasingly prevalent as a result of global change, with significant health and economic impacts worldwide. Dengue virus (DENV), chikungunya virus (CHIKV), Zika virus (ZIKV), yellow fever virus (YFV), Japanese encephalitis virus (JEV) and West Nile virus (WNV) transmitted by Aedes and Culex species have been identified as arboviruses of public health interest. Vertical transmission (VT) which refers to a process where infected mosquitoes transmit viruses to their offsprings have been often overlooked in MBD epidemiology. We conducted a systematic review to evaluate the role of VT in the occurrence, prevenance and spread of MBDs, focusing on study types, mosquito species and virus genera. 175 studies selected from 837 studies between 1950 and 2024 relating to VT in mosquito population were reviewed. Findings revealed that VT occur across multiple mosquito species in natural and experimental settings, with significant variation in VT rates, depending on vector species, virus genus, and study location. Ae. aegypti, Ae. albopictus, Ae. vexans, Cx.pipiens, Cx. tarsalis and Cx. quinquefasciatus were identified as mosquito species that support VT while pathogens identified to be transmitted vertically were DENV, ZIKV, WNV, CHIKV, YFV, Sindbis virus (SINV), Ross River virus (RRV) and Mayaro virus (MAYV). VT rates reported as minimum infection rate (MIR) varied across mosquito species, study type and location. It was also reported that high VT rate may precede mosquito-borne disease outbreak. These findings indicate that VT, though often overlooked, contributes to the dynamics of MBD transmission and could influence disease outbreaks and endemism, especially under changing climatic conditions. These findings also highlight the need to incorporate VT into mathematical models, experimental studies and control strategies, given its potential role in sustaining arbovirus transmission and influencing outbreak dynamics. Graphical abstract Supplementary Information The online version contains supplementary material available at 10.1186/s13071-025-06761-8.",
+        "url": "https://www.semanticscholar.org/paper/d77dde598290b1c7decfa533644ea9e4bf5e3b04"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Spatial distribution of Culex mosquitoes across England and Wales, July 2023",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "Emma Widlake",
+          "Roksana Wilson",
+          "Jacko Pilgrim",
+          "A. Vaux",
+          "Jola Tanianis-Hughes",
+          "Amirah Haziqah-Rashid",
+          "K. Sherlock",
+          "Agata Delnicka",
+          "Amelia Simpson",
+          "Anthony J. Abbott",
+          "C. Johnston",
+          "Jude Martin",
+          "Kendall Barlow",
+          "Eloise Aliski",
+          "Saffron Shiels",
+          "S. Gandy",
+          "Sarah M Biddlecombe",
+          "Joanna de Klerk",
+          "L. Sedda",
+          "J.M. Medlock",
+          "M. Baylis",
+          "Marcus S. C. Blagrove"
+        ],
+        "abstract": "Background With medically important arboviruses such as West Nile virus (WNV) circulating in Europe and Usutu virus (USUV) currently present in the UK, it is imperative to identify areas in the UK at risk of establishment and spread of these viruses. Here, we describe a comprehensive nationwide field surveillance study conducted during July 2023 to map the distribution of the WNV and USUV competent vectors: Culex pipiens biotype pipiens, Culex pipiens biotype molestus, and Culex torrentium, across England and Wales. Methods Mosquitoes were sampled for 3 trap nights (3TN) at two hundred sites in rural, urban and suburban settings, selected using a lattice plus close pairs surveillance design. Field caught samples were analysed using morphological and molecular approaches. Results A total of 2,157 adult mosquitoes of the Culex genus were collected. Culex pipiens biotype pipiens dominated the resident Culex populations, comprising 1,478 (95.8%) out of 1,543 mosquitoes with confirmed molecular species identity. Culex torrentium were present in much lower numbers, with only 38 (2.5%) identified. Only five of the biotype molestus (0.3%) were identified in this study, however these were found in localities outside of London and in a rural location, with the biotype previously having been associated with human-made habitats. This study also found that hybrids of the pipiens and molestus biotypes are more widespread than previously recorded. In total, 22 hybrids (1.4%) were identified from counties as far west as Cornwall and as far north as Suffolk. Conclusions Coupled with reviews of previous UK Culex sp. surveys, this study provides essential data for risk modelling of WNV and USUV, furthering the UKs preparedness for incursions of vector-borne diseases in the future.",
+        "url": "https://www.semanticscholar.org/paper/12d73e2ead260c71d50708350304c3d07ec4c0f7"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Characterization of Novel Plantaricin-Derived Antiviral Peptides Against Flaviviruses",
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "authors": [
+          "Abubakr A. M. Omer",
+          "Sanjiv Kumar",
+          "Robert Selegård",
+          "Torbjörn Bengtsson",
+          "H. Khalaf"
+        ],
+        "abstract": "Flaviviruses, including West Nile virus, Zika virus, and Dengue virus, pose global health challenges due to their distribution, pathogenicity, and lack of effective treatments or vaccines. This study investigated the antiviral activity of novel truncated peptides derived from the two-peptide plantaricins PLNC8 αβ, PlnEF, PlnJK, and PlnA. The antiviral potential was predicted using machine learning tools, followed by in vitro evaluation against the Kunjin virus using plaque reduction assays in Vero cells. Molecular docking assessed peptide interactions with KUNV and ZIKV. Full-length and truncated peptides from PlnA, PlnE, PlnF, PlnJ, and PlnK demonstrated limited antiviral efficacy against KUNV in vitro, despite in silico predictions suggesting antiviral potential for PlnA, PlnE, and PlnJ. Large discrepancies were observed between the predicted and experimentally determined activities. However, complementary two-peptide plantaricins PlnEF and PlnJK exhibited significant synergistic effects. Furthermore, the truncated peptides PLNC8 α1-15 and PLNC8 β1-20 reduced KUNV viral load by over 90%, outperforming their full-length counterparts. Molecular docking revealed interactions of PLNC8 α and PLNC8 β, and their truncated variants, with KUNV and ZIKV, suggesting a mechanism involving viral envelope disruption. These findings highlight the potential of plantaricin-derived peptides as promising antiviral candidates against flaviviruses, warranting further investigation into their mechanisms and applications.",
+        "url": "https://www.semanticscholar.org/paper/99abc703b67d858947dbd006451cd7e854c949d6"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Diseases Transmitted by Arthropods: Module to Train Medical Providers in English and Spanish",
+        "journal": "MedEdPORTAL : the Journal of Teaching and Learning Resources",
+        "doi": null,
+        "authors": [
+          "Algevis P. Wrench",
+          "Andrea Celeste Vélez-Figueroa",
+          "Julián J Rubio Gil de Lamadrid",
+          "Kaitlyn Pommells",
+          "J. P. Sánchez"
+        ],
+        "abstract": "Introduction Arthropod-borne diseases like Chagas, dengue, and West Nile virus are common among migrants and immigrants from Spanish-speaking countries and U.S. travelers. The U.S. Census Bureau predicts that by 2060, 28% of the total U.S. population and 39% of the foreign-born population will be Hispanic. Health care practitioners need a thorough understanding of these diseases to provide proper care and improve patient compliance for the ever-changing U.S. population. Methods We used Kern's model to develop an hour-long interactive module consisting of a presentation, a video for large-group discussion, six case studies for small-group discussions, and pre- and postsession evaluations. All materials are available in English and Spanish; the module is tailored to health care providers communicating with Spanish-speaking patients. We used statistical tests to compare confidence levels and assess improvements in knowledge before and after the module. Results The module was implemented three times in Spanish and two times in English to a total of 49 participants, which included prehealth students, medical students, graduate students, and faculty/staff. The Wilcoxon rank sum test demonstrated significant improvement from pre- to postsession evaluations for all educational objectives. Based on a 5-point Likert scale, the median confidence level increased from 2 (slightly confident) to 4 (fairly confident), with p < .01. Discussion This module can be of particular importance to health care providers localized in or focused on Hispanic communities. It can be easily integrated into microbiology, epidemiology, and medical Spanish courses. Further research is needed to assess its effectiveness among faculty and staff.",
+        "url": "https://www.semanticscholar.org/paper/8cd3fd652559e285a2d52631e20621c6fa501617"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Multiple orthoflaviviruses secrete sfRNA in mosquito saliva to promote transmission by inhibiting MDA5-mediated early interferon response",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "Idalba M Serrato-Pomar",
+          "Jim Zoladek",
+          "Hacène Medkour",
+          "Quentin Narpon",
+          "Félix Rey-Cadilhac",
+          "Soléna Rossi",
+          "Stephanie French",
+          "Cassandra Modahl",
+          "Wannapa Sornjai",
+          "Elliott F Miot",
+          "R. Hamel",
+          "Oleg Medianikov",
+          "D. Missé",
+          "Sébastien Nisole",
+          "J. Pompon"
+        ],
+        "abstract": "Numerous orthoflaviviruses transmitted through the bites of different mosquito species infect more than 500 million people annually. Bite-initiated skin infection represents a critical and conserved step in transmission and a deeper understanding of this process will promote the design of broad-spectrum interventions to address diverse orthoflavivirus health threats. Here, we identify and characterize a transmission-enhancing viral factor in mosquito saliva that is shared across orthoflaviviruses. Saliva of West Nile virus-infected Culex and Zika virus-infected Aedes contains a viral non-coding RNA, subgenomic orthoflaviviral RNA (sfRNA), within lipid vesicles distinct from virions. Higher concentration of sfRNA in infectious saliva positively correlates with infection intensity in human cells and skin explants. Early sfRNA delivery into transmission-relevant skin cell types and human skin explant demonstrate that sfRNA is responsible for the infection enhancement. Co-inoculation of sfRNA in a mouse model of transmission enhanced skin infection and worsened disease severity, evidencing the role of salivary sfRNA as a transmission-enhancer. Mechanistically, salivary sfRNA attenuates early interferon response in human skin cells and skin explants by altering MDA5-mediated signaling. Our results, derived from two distinct orthoflaviviruses and supported by prior studies, establish salivary sfRNA as a pan-orthoflavivirus transmission-enhancing factor driven by a conserved viral non-coding RNA.",
+        "url": "https://www.semanticscholar.org/paper/c2574279701c323ed2b59eda0a4723a85f00340b"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Functional Roles and Host Interactions of Orthoflavivirus Non-Structural Proteins During Replication",
+        "journal": "Pathogens",
+        "doi": null,
+        "authors": [
+          "Meghan K. Donaldson",
+          "Levi A. Zanders",
+          "Joyce Jose"
+        ],
+        "abstract": "Orthoflavivirus, a genus encompassing arthropod-borne, positive-sense, single-stranded RNA viruses in the Flaviviridae family, represents clinically relevant viruses that pose significant threats to human and animal health worldwide. With warming climates and persistent urbanization, arthropod vectors and the viruses they transmit continue to widen their geographic distribution, expanding endemic zones. Flaviviruses such as dengue virus, Zika virus, West Nile virus, and tick-borne encephalitis virus cause debilitating and fatal infections globally. In 2024, the World Health Organization and the Pan American Health Organization declared the current dengue situation a Multi-Country Grade 3 Outbreak, the highest level. FDA-approved treatment options for diseases caused by flaviviruses are limited or non-existent, and vaccines are suboptimal for many flaviviruses. Understanding the molecular characteristics of the flavivirus life cycle, virus-host interactions, and resulting pathogenesis in various cells and model systems is critical for developing effective therapeutic intervention strategies. This review will focus on the virus-host interactions of mosquito- and tick-borne flaviviruses from the virus replication and assembly perspective, emphasizing the interplay between viral non-structural proteins and host pathways that are hijacked for their advantage. Highlighting interaction pathways, including innate immunity, intracellular movement, and membrane modification, emphasizes the need for rigorous and targeted antiviral research and development against these re-emerging viruses.",
+        "url": "https://www.semanticscholar.org/paper/30a166597f4b7ab89998681260791fc386204b02"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Current epidemiological status of mosquito-borne arboviruses in Gulf countries: a systematic review and meta-analysis",
+        "journal": "Tropical Diseases, Travel Medicine and Vaccines",
+        "doi": null,
+        "authors": [
+          "Khalid Hajissa",
+          "Mutiat Hammed-Akanmu",
+          "Hussain Omar Alfaqih",
+          "A. A. Alshehri",
+          "Mohammed Dauda Goni",
+          "Maha Al-Asmakh"
+        ],
+        "abstract": "Background Mosquito-borne viral (MBV) infections caused by dengue virus (DENV), Rift Valley fever virus (RVFV), West Nile virus (WNV), and chikungunya virus (CHIKV) pose a significant global public health concern. The aim of this systematic review is to summarise the reported prevalence data for these viruses in Gulf countries. Methods A web search in four electronic databases (Scopus, PubMed, Google Scholar, and Web of Science) was conducted, and forty-four eligible studies were fulfilled the selection criteria and were therefore included in this study. The Pooled prevalence of MBVs was estimated using a random-effects model. The heterogeneity was assessed using Cochrane Q test and I2 test, while publication bias was evaluated using Egger’s test. Results Using meta-analysis of proportions, the pooled prevalence of MBVs in Gulf countries among 34,367 human and 19,062 Animal samples was estimated to be 22.5% (95% CI: 13.7–31.4) and 11.6% (95% CI: 0.5 − 22.7%), respectively. In human, DENV was the most predominant virus reported in 19 studies, with an overall pooled prevalence of 32.4%, followed by RVFV in 9 studies, with an infection rate of 10.1%, while WNV and CHIKV were only reported in two studies, with overall prevalence rates of 6.4% and 2.4%, respectively. On the other hand, the overall prevalence of WNV and RVFV in animals was estimated to be 27.7% and 1.5%, respectively. Conclusion This review revealed that MBVs are highly prevalent among humans in Gulf countries but relatively low in animals. As a result, additional therapeutic and preventive measures are required. However, the study highlights the need for further studies and surveillance to precisely monitor the burden of these viruses in the region. Supplementary Information The online version contains supplementary material available at 10.1186/s40794-025-00247-2.",
+        "url": "https://www.semanticscholar.org/paper/413e3179864f08234e17d085f268643edebb9800"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "mTOR Signalling in Arbovirus Infections: Molecular Mechanisms and Therapeutic Opportunities",
+        "journal": "Reviews in Medical Virology",
+        "doi": null,
+        "authors": [
+          "Suad A. Alghamdi",
+          "Mohammed Alissa",
+          "Abdullah Alghamdi"
+        ],
+        "abstract": "Arboviruses, including dengue virus (DENV), Zika virus (ZIKV), Japanese encephalitis virus (JEV), and West Nile virus (WNV), are vector‐borne pathogens that exploit the mammalian target of rapamycin (mTOR) signalling pathway to optimise host cellular environments for replication, immune evasion, and pathogenesis. These viruses manipulate mTOR complexes through specific viral proteins, such as DENV NS5 activating mTORC2 to suppress apoptosis and ZIKV NS4A/NS4B inhibiting Akt‐mTORC1 signalling to impair neurogenesis while promoting autophagy. JEV NS1/NS1′ disrupts the blood‐brain barrier by inducing autophagy‐mediated degradation of tight junction proteins via mTOR suppression, contributing to encephalitis. These interactions result in severe pathological outcomes, including immune evasion, metabolic reprogramming, apoptosis suppression, and neurological disorders like microcephaly. Targeting mTOR has emerged as a promising therapeutic approach for arbovirus infections. Rapamycin and its derivatives reduce viral replication and improve survival in preclinical models, while repurposed drugs like niclosamide and chloroquine exhibit antiviral effects against ZIKV. ATP‐competitive inhibitors such as Torin‐1 and natural compounds like resveratrol expand the therapeutic landscape. Combination therapies pairing mTOR inhibitors with antivirals or immune modulators may provide synergistic benefits. This review highlights the molecular mechanisms underlying arbovirus manipulation of mTOR signalling and emphasises the potential of tailored therapeutic interventions targeting these pathways to mitigate arbovirus‐associated diseases.",
+        "url": "https://www.semanticscholar.org/paper/2e784779a1278e5ee7af8b115d1ec61e31912f13"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Mosquito- and tick-borne orthoflaviviruses cross an in vitro endothelial-astrocyte barrier",
+        "journal": "Frontiers in Cellular and Infection Microbiology",
+        "doi": null,
+        "authors": [
+          "Felix Schweitzer",
+          "Lara-Jasmin Schröder",
+          "Alina Friedrichs",
+          "V. Gudi",
+          "T. Skripuletz",
+          "Imke Steffen",
+          "Martin Palus",
+          "D. Růžek",
+          "Albert Osterhaus",
+          "C. K. Prajeeth"
+        ],
+        "abstract": "Introduction The genus Orthoflavivirus of the Flaviviridae family includes several notable pathogens such as mosquito-borne West-Nile virus (Orthoflavivirus nilense, WNV) and Tick-borne encephalitis virus (Orthoflavivirus encephalitidis, TBEV) that are highly neurotropic and may cause severe neurological disease leading to lifelong disabilities, coma and death. These viruses have developed mechanisms to breach the compact blood-brain barrier (BBB) and establish infection within the central nervous system (CNS). Nevertheless, neuroinvasive mechanisms of orthoflaviviruses remain poorly understood. Complex anatomy of the CNS and the organization of the BBB is a major challenge to study neuroinvasion of orthoflaviviruses in vivo. Therefore, in vitro BBB models are useful tools to study direct interaction of viruses with the endothelial barrier. Methods In this study, we employed an in vitro transwell BBB model comprising primary mouse brain microvascular endothelial cells and astrocytes to compare the ability of mosquito-borne and tick-borne orthoflaviviruses to cross a compact endothelial barrier and reach the basolateral compartment of the transwell system. The influence of virus inoculation on the barrier properties was determined by measuring transendothelial electrical resistance (TEER). Results The results demonstrate that while pathogenic WNV and TBEV cross the endothelial barrier the ability of low pathogenic Usutu virus (USUV) and Langat virus (LGTV) was inconsistent. All viruses tested display virus replication within the endothelial cells. Nevertheless, virus replication did not affect the barrier function of endothelial cells as demonstrated by sustained TEER and absence of leakage of high molecular weight dextran molecules through the endothelial barrier even at several hours post infection. Discussion Our findings indicate that orthoflaviviruses can infect the endothelial cells, replicate within them without affecting the cells and its barrier function. Nevertheless, only pathogenic WNV and TBEV showed the ability to cross the endothelial barrier and reach the basolateral compartment.",
+        "url": "https://www.semanticscholar.org/paper/eae6b5dcd6ecf20540ee2433e11ab2681eaee42e"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Abundance, Diversity and Phenology of Mosquito Larvae in a Highly Anthropized Wetland: Health and Management Implications of Gándaras de Budiño (NW Spain)",
+        "journal": "Ecology and Evolution",
+        "doi": null,
+        "authors": [
+          "Yasmina Martínez-Barciela",
+          "Alejandro Polina",
+          "Josefina Garrido"
+        ],
+        "abstract": "ABSTRACT Because of their role as vectors of diseases, the presence of mosquitoes in wetlands often discourages their protection and conservation. The Gándaras de Budiño (Galicia, northwestern Spain) is a natural wetland highly damaged by the activity of a large industrial estate. The gathering in the same area of human hosts and migratory birds susceptible to carrying diseases such as West Nile virus (WNV) makes it necessary to determine the epidemiological risk of the wetland by studying the abundance, diversity and phenology of its culicid fauna. The field research was conducted in 11 water bodies sampled approximately every 15 days between January and December 2022 using the standardized dipping technique to capture mosquito larvae. A total of 766 specimens belonging to 11 species of the genus Culex (57%), Culiseta (30%) and Anopheles (13%) were identified, though the isolated observation of adult specimens of Coquillettidia and Aedes lead to the determination of eight functional groups. Mosquito abundance and diversity were significantly higher in temporary water bodies and spring season (with a median of 1–2 species more). Generalized linear mixed models (GLMM) revealed that both larval abundance and species richness were positively related with maximum ambient temperature and negatively with the mean relative humidity of the 15 days prior to the sampling date. Although almost all functional groups contain some mosquito capable of transmitting diseases, only Cx. pipiens s.l. (N = 287, 37.5%) and Cx. torrentium (N = 34, 4.4%) represent an emerging risk in the wetland due to their high competence to transmit WNV. Temporary and polluted waters were identified as the main breeding sites of these species, while spring and summer were the period of their major larval activity. The protection and proper management of natural wetlands not only favor the conservation of biodiversity, but is consistent with the prevention and control of mosquito‐borne diseases.",
+        "url": "https://www.semanticscholar.org/paper/95789e5c9f1e1daebac07d0732119d9c0b704d9b"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Environmental factors contributing to southern house mosquito presence in Clark County, Nevada, using machine learning",
+        "journal": "Environmental Research Communications",
+        "doi": null,
+        "authors": [
+          "C. Ibebuchi",
+          "Itohan-Osa Abu",
+          "Somtochukwu S. Onwah"
+        ],
+        "abstract": "The southern house mosquito (Culex quinquefasciatus), a prevalent specie in the southern United States, is a primary vector for diseases including West Nile virus, St. Louis encephalitis, and lymphatic filariasis. In this study, we applied a multi-step machine learning approach to investigate environmental factors influencing the annual presence of Culex quinquefasciatus in Clark County, Nevada, using data from the Global Biodiversity Information Facility spanning 1980 to 2023. Our methodology integrated recursive feature elimination to select top predictors, gradient boosting classifier (GBC) gain-based importance for ranking, shapley additive explanations to capture nonlinear relationships and enhance interpretability, and Spearman correlations to assess monotonic relationships. Among the combination of over twenty temperature and precipitation indices analysed, our results indicate that increased frequency of winter conditions with minimum temperatures below 0 °C significantly reduces the annual presence of Culex quinquefasciatus (Spearman correlation = −0.42, p <0.05). Conversely, a decrease in the frequency of abnormally wet conditions was found to promote Culex quinquefasciatus proliferation. Among the climatic factors, fewer cold days ranked highest, contributing 16.57% to the GBC model’s climatic feature importance, which highlights the critical role of warmer winters in the proliferation of Culex quinquefasciatus. However, when accounted for, urbanization emerged as the dominant factor driving the increased presence of Culex quinquefasciatus, outpacing climatic factors with a 75.96% contribution in the GBC model. Overall, our findings highlight warmer temperatures, reduced precipitation, and increased urbanization as key drivers of Culex quinquefasciatus presence in Clark County. This insight is crucial for informing targeted vector control strategies and public health interventions in urban desert regions, such as Clark County, where environmental and anthropogenic factors converge to increase the risk of mosquito-borne disease transmission.",
+        "url": "https://www.semanticscholar.org/paper/d525e9bbb3691462602dd37d2e3b82553b42f050"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Carry-over effects in Culex species along a land use gradient with differences in microclimatic conditions",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "Carmen Villacañas de Castro",
+          "Johann Musculus",
+          "E. Timmermann",
+          "R. Lühken",
+          "E. Kiel",
+          "F. Sauer"
+        ],
+        "abstract": "Background Culex pipiens sensu stricto (s.s.) and Culex torrentium are the major vectors of Sindbis, Usutu and West Nile virus in Europe. Both mosquito species typically breed in small artificial water containers (e.g. flower pots or rain barrels) and are the predominant mosquitoes in urbanised areas. The larval breeding conditions (e.g. temperature) can lead to carry-over effects on the emerging adults, which can influence their fitness traits (e.g. longevity or fecundity) and, finally, the vector capacity of a mosquito population. Our study aimed to investigate how the microclimatic heterogeneity across an urban area affects juvenile development and survival, as well as wing size, wing asymmetry and adult survival under heat stress of emerging adult Cx. pipiens s.s./Cx. torrentium. Methods Experiments were conducted in Oldenburg (Lower Saxony, Germany) between 2021 and 2022. In a semi-field study, 45 artificial breeding habitats with 30 Cx. pipiens s.s./Cx. torrentium larvae were installed along a land use gradient, from vegetation-dominated to urban areas. The wings of all emerged mosquitoes were removed to measure wing size and wing asymmetry. Additionally, we tested the survival time of field-emerged adults exposed to 31 °C in the laboratory. Results A piecewise structural equation model (SEM) was employed to simultaneously estimate the linear regression coefficients for various predicted relationships. The findings from the bivariate results align with the theoretical model derived from the SEM analysis. As sites with higher urbanisation indices had higher mean temperatures, mosquito development also differed along this urbanisation gradient. Results indicate that mosquitoes developing in warmer sites had shorter developmental times, and the highest juvenile survival occurred between 20 and 21 °C. Higher mean temperatures lead to lower adult survival times under heat stress and smaller wing centroid sizes. Finally, we showed that individuals with larger wing centroid sizes had lower asymmetries, which in turn also increased at higher maximum temperatures in the breeding sites, possibly indicating environmental stress. Conclusions Our findings highlight the importance of microclimatic variation across urbanised areas on the development and fitness traits of Culex pipiens s.s./Cx. torrentium mosquitoes, emphasising the need to incorporate fine-scale microclimatic data into risk assessment models. Graphical abstract Supplementary Information The online version contains supplementary material available at 10.1186/s13071-025-06903-y.",
+        "url": "https://www.semanticscholar.org/paper/e621cd84a93b82119005afd57dbaf905cd5f0b28"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Irreversible furin cleavage site exposure renders immature tick-borne flaviviruses fully infectious",
+        "journal": "Nature Communications",
+        "doi": null,
+        "authors": [
+          "Jiří Holoubek",
+          "Jiri Salat",
+          "Milos Matkovic",
+          "Petr Bednář",
+          "Pavel Novotný",
+          "Martin Hradilek",
+          "T. Majerová",
+          "Ebba Rosendal",
+          "L. Eyer",
+          "Andrea Fořtová",
+          "Michaela Berankova",
+          "L. Bell-Sakyi",
+          "Anna K. Överby",
+          "Andrea Cavalli",
+          "Massimiliano Bonomi",
+          "Félix A. Rey",
+          "D. Růžek"
+        ],
+        "abstract": "Flavivirus assembly is driven by the envelope glycoproteins pre-membrane (prM) and envelope (E) in the neutral pH environment of the endoplasmic reticulum. Newly budded, spiky particles are exported through the Golgi apparatus, where mildly acidic pH induces a major surface rearrangement. The glycoproteins reorganize into (prM/E)\\₂ complexes at the surface of smooth particles, with prM trapped at the E dimer interface, thereby exposing a furin cleavage site (FCS) for proteolytic maturation into infectious virions. Here, we show that in the absence of furin, immature tick-borne flavivirus particles—tick-borne encephalitis virus, Langat virus, and Louping ill virus—remain fully infectious and pathogenic in female BALB/c mice, in contrast to mosquito-borne flaviviruses such as Usutu, West Nile, and Zika viruses. We further show that the FCS in tick-borne viruses remains exposed at neutral pH, allowing furin at the surface of target cells to activate viral fusogenicity, while mosquito-borne counterparts require acidic re-exposure. Mutations increasing the dynamic behavior of the E dimer mimic the mosquito-borne phenotype, with retracted FCS at neutral pH and loss of infectivity. Our multidisciplinary approach—combining virological assays, targeted mutagenesis, structural modeling, and molecular dynamics simulations—highlights the role of E dimer dynamics in regulating flavivirus maturation and infectivity.",
+        "url": "https://www.semanticscholar.org/paper/3e115de6b8d539d16dc17a2c303130acbb4127f8"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Perfusable Brain Microvascular Network‐On‐Chip Model to Study Flavivirus NS1‐Induced Endothelial Dysfunction",
+        "journal": "Advanced Functional Materials",
+        "doi": null,
+        "authors": [
+          "Monika Rajput",
+          "Yen-Ting Tung",
+          "Yu-Chi Chen",
+          "M. J. Song",
+          "Marc Ferrer",
+          "Emily M. Lee"
+        ],
+        "abstract": "Flaviviruses can lead to severe neurotropic‐encephalitic pathology, for which the viral nonstructural protein 1 (NS1) plays a major role. 2D in vitro cellular systems and animal models are currently used to investigate the effects of flavivirus NS1 in the brain‐blood barrier do not fully capture pathogenesis and drug responses seen in humans. Here is reported the development of a perfusable human brain microvascular network‐on‐a‐chip (BMVasChip) model which incorporates brain endothelial cells and pericytes and recapitulates the cellular organization and expression of brain blood barrier‐specific markers, including intracellular junction proteins. This BMVasChip model is used to investigate vasculopathy caused by exposure to a panel of flavivirus NS1 proteins, including Japanese encephalitis (JEV), West Nile (WNV), and dengue virus (DENV) NS1 proteins. The BMVasChip platform is able to demonstrate flavivirus NS1‐induced pathophysiological phenotypes in the BMVasChip, including early and late endothelial activation and dysfunction features such as loss of barrier integrity, morphological features, and production of pro‐inflammatory markers in a virus, dose, and time‐dependent manner. In summary, the BMVasChip model recapitulates key features of endothelial dysfunction, potentially reflecting NS1's role in viral pathogenesis and providing targets for antiviral therapeutics and vaccine development.",
+        "url": "https://www.semanticscholar.org/paper/5af368b13fa25659d8774d5001c222dc237c1505"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Spatial inference of Culex pipiens abundance and biting activity distribution in the Netherlands using citizen science",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "A. Abourashed",
+          "Catuxa Cerecedo-Iglesias",
+          "M. Dellar",
+          "J. Palmer",
+          "F. Bartumeus"
+        ],
+        "abstract": "Background The expanding geographical spread of mosquito-borne diseases (MBDs) has intensified the need for effective mosquito surveillance. Additional surveillance, particularly of species such as Culex pipiens, is essential as this species is a key vector of West Nile and Usutu viruses. Citizen science offers an innovative approach to monitoring Cx. pipiens populations. Methods Our study utilized data from the Mosquito Alert mobile app to model the spatial distribution and abundance of Cx. pipiens and mosquito bites during the summer of 2021 in the Netherlands. Using generalized linear mixed models, climatic and non-climatic factors were analyzed to create two distribution models of adult Cx. pipiens and mosquito bites as outcomes. Results Population density, income, and agricultural areas (P ≤ 0.007) were identified as key determinants for both models. Blackbird population density, precipitation, and the interaction between artificial surfaces and temperature were also covariates for the Culex model, whereas sand and tree coverage were determinants for the bite model. The study controlled for biases in sampling effort to ensure robust predictions, revealing higher Cx. pipiens abundance in the central eastern areas of the country and widespread mosquito biting activity across the Netherlands. Conclusions These findings underscore the importance of sociodemographic and environmental factors in mosquito distribution and biting dynamics, with citizen science emerging as a valuable tool for enhancing traditional surveillance. Future research integrating longer temporal datasets and human behavioral factors will further improve predictive accuracy and support more effective MBD prevention efforts. Graphical Abstract Supplementary Information The online version contains supplementary material available at 10.1186/s13071-025-06774-3.",
+        "url": "https://www.semanticscholar.org/paper/c00d5b6ee219f56c3a2139e3902968610d0c81b1"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Temporal Analysis of Climate Change Impact on the Spread and Prevalence of Vector-Borne Diseases in Campania (2018–2023)",
+        "journal": "Microorganisms",
+        "doi": null,
+        "authors": [
+          "Federica Gargano",
+          "Roberta Brunetti",
+          "M. Buonanno",
+          "Claudio de Martinis",
+          "L. Cardillo",
+          "Pellegrino Fenizia",
+          "Antonietta Anatriello",
+          "Giuseppe Rofrano",
+          "Luigi Jacopo D’Auria",
+          "Giovanna Fusco",
+          "Loredana Baldi",
+          "E. de Carlo",
+          "Maria Ottaiano"
+        ],
+        "abstract": "Vector-borne infections (Arbovirosis) represent a significant threat to public health worldwide. Climate change, currently a global problem, seems to contribute to the incidence and prevalence of autochthonous and imported cases of arbovirosis in Europe. The aim of this work is to evaluate the impact of climate change on the occurrence and spread of arbovirosis in order to offer concrete ideas to the competent authorities and modulate surveillance plans on the basis of risk assessment. The results of official controls carried out from 2018 to 2023 on animals subjected to the Surveillance Plans for Blue Tongue, West Nile and Usutu viruses in the Campania Region were analyzed. Statistical analyses were performed using R software (version 4.5.0). The possible correlation between the prevalence of infections and climate parameters was evaluated with the “cross-correlation time series” (p-value < 0.05). The generalized linear mixed model showed that for each unit increase in humidity and temperature, the probability of disease spread increased by 4.56% and 7.84%, respectively. The univariate logistic regression model and the odds ratio were necessary to evaluate the possible risk related to the proximity to wetlands or to bodies of water: in the past few years, these have represented a risk for the persistence and spread of arbovirosis in the Campania region.",
+        "url": "https://www.semanticscholar.org/paper/1529baad3b62794b508febeeba85728db5f4075d"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Extreme climate whiplash events drive divergent responses of mosquito-borne disease",
+        "journal": "PNAS Nexus",
+        "doi": null,
+        "authors": [
+          "Andrew J MacDonald",
+          "Dan Sousa",
+          "Amy Quandt",
+          "Samantha Sambado",
+          "Terrell J Sipin",
+          "Zoe Rennie",
+          "Ashley E. Larsen"
+        ],
+        "abstract": "Abstract There is mounting concern surrounding climate change effects on human health. Vector-borne diseases—transmitted by ectotherms like mosquitos—are sensitive to abiotic conditions, and there is a significant interest in modeling their response to future climate change. However, changing climate also contributes to increasing variability and frequency of extreme weather, including “climate whiplash” events, when weather conditions abruptly shift between extremes. These events may have more immediate effects on vector-borne diseases, though they have received less attention. Here, we use the series of extreme atmospheric rivers of 2022/2023 in California, following years of extreme drought, as a natural experiment to assess the effect of climate whiplash on vector-borne disease risk. Using high spatiotemporal resolution standing water remote sensing, mosquito and viral surveillance, and community science observations of key reservoir hosts, we estimate mosquito species- and virus-specific responses to flooding following atmospheric rivers using panel regression models. We find significant positive effects of flooding on abundance of the rural West Nile virus (WNV) vector in California's Central Valley, with the largest effects at landscape scales. We find no significant effects for the urban WNV vector, or globally invasive yellow fever mosquito. Finally, we find similarly divergent effects on WNV and Saint Louis Encephalitis virus (SLEV) infection: WNV rates decline significantly in the urban vector and SLEV increases significantly in the rural vector. These results reveal species-specific responses to climate whiplash that are predictable by mosquito ecology, relevant to globally important mosquito vectors and diseases, and inform public health response to future extreme events.",
+        "url": "https://www.semanticscholar.org/paper/dbe77d556232e9287ba339e77125339baf89dc09"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Impact of COVID-19 vaccinations in India: a state-wise analysis",
+        "journal": "BMC Public Health",
+        "doi": null,
+        "authors": [
+          "Abhigayan Adhikary",
+          "M. Pal",
+          "Raju Maiti"
+        ],
+        "abstract": "Background Ever since the emergence of COVID-19 and its consequent spread across continents, engulfing both advanced and developing nations, COVID-19 vaccine was considered to be the main weapon to curb the spread of the virus. The COVID-19 vaccination program in India started after the first wave of infections (March – December 2020) had almost subsided. Objective In this work, the objective is to perform a state-wise analysis to assess the impact of vaccination in slowing down the spread of infections during the second COVID-19 wave (February – October 2021) in India. The prediction accuracy of the proposed model with the optimal lag length (in days) after including the impact of vaccination is evaluated and compared with a model without it. A total of 21 states are chosen for the analysis encompassing 97% of the Indian population. Methods We use the generalized Gompertz curve to study the COVID-19 outbreak. The generalized Gompertz model is then further modified to study the impact of vaccination to slow down the spread of COVID-19. The modified model considers the cumulative proportion of individuals having the first COVID-19 vaccine shot in each state as the explanatory variable. Results By incorporating the impact of vaccination in the Generalized Gompertz Curves, it is seen that the visible impact of the first dose of the vaccination is observed after a lag of 20 days with 16 out of the 21 states showing the impact of vaccines in curbing the spread of COVID-19. However, in states like Telangana, West Bengal, Tamil Nadu, Rajasthan, and Kerala, we do not conclusively observe the impact of vaccination during the study period. Conclusions Using only COVID-19 infection cases and the vaccination data in the proposed model, we conclude that overall, the vaccination program effectively curbed the spread of COVID-19 in India.",
+        "url": "https://www.semanticscholar.org/paper/fdf4b5dc76cf5c74c342344051d9695299bdc643"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Role of extracellular vesicles in the pathogenesis of mosquito-borne flaviviruses that impact public health",
+        "journal": "Journal of Biomedical Science",
+        "doi": null,
+        "authors": [
+          "Pedro Pablo Martínez-Rojas",
+          "Verónica Monroy-Martínez",
+          "B. Ruíz-Ordaz"
+        ],
+        "abstract": "Mosquito-borne flaviviruses represent a public health challenge due to the high-rate endemic infections, severe clinical outcomes, and the potential risk of emerging global outbreaks. Flavivirus disease pathogenesis converges on cellular factors from vectors and hosts, and their interactions are still unclear. Exosomes and microparticles are extracellular vesicles released from cells that mediate the intercellular communication necessary for maintaining homeostasis; however, they have been shown to be involved in disease establishment and progression. This review focuses on the roles of extracellular vesicles in the pathogenesis of mosquito-borne flavivirus diseases: how they contribute to viral cycle completion, cell-to-cell transmission, and cellular responses such as inflammation, immune suppression, and evasion, as well as their potential use as biomarkers or therapeutics (antiviral or vaccines). We highlight the current findings concerning the functionality of extracellular vesicles in different models of dengue virus, Zika virus, yellow fever virus, Japanese encephalitis virus, and West Nile virus infections and diseases. The available evidence suggests that extracellular vesicles mediate diverse functions between hosts, constituting novel effectors for understanding the pathogenic mechanisms of flaviviral diseases.",
+        "url": "https://www.semanticscholar.org/paper/c5e8310590e15721d1f40a5c8d30f93ef3497370"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "The Correlation of Arboviruses With the Risk of Diabetes Mellitus: A Systematic Review and Meta-Analysis of Current Evidence.",
+        "journal": "Reviews in medical virology",
+        "doi": null,
+        "authors": [
+          "Jiangchen Ma",
+          "Xiaowei Ding"
+        ],
+        "abstract": "Arboviruses have become endemic worldwide in the recent years. Growing evidence have shown that diabetes increases the risk of severe complications these virus infections, but previous results is conflicting. This systematic review and meta-analysis reassessed the data associated with this correlation to response to the question of whether patients with diabetes have an elevated susceptibility to virus. Four electronic databases of PubMed, Scopus, Web of Science (WoS) and Embase were searched as systematic to evoke relevant data to the risk of virus infection in individuals with diabetes up to January 31, 2025. A random-effects model was used to estimate the summary odds ratio (OR). Subgroup analyses depending on the geographic area, clinical symptoms of virus, study design and the diagnostic techniques of virus were conducted. Quality appraisal for primary outcome and quality assessment was preformed by the Grading of recommendation, assessment, development and evaluation (GRADE) and Newcastle-Ottawa scale (NOS), respectively. This study was registered with PROSPERO, code (CRD42025638835). In total, 33 studies were identified based on different in virus type and phenotype of diabetes. The summary OR between virus infection and the risk of diabetes was (0.81, [95% CI 0.51-1.12], p < 0.05). The separate analysis for each of virus showed an increased risk of severe clinical symptoms of both DENV (OR = 1.04, [95% CI 0.53-1.55], p = 0.00) and WNV (OR = 1.94, [95% CI 1.02-2.87], p = 0.00) except CHIKV (OR = 0.24, [95% CI -0.28-0.76], p = 0.36). No publication bias was observed using Begg's (p = 0.54) and Egger's (P = 0.38) tests. Subgroups of geographic area and severe clinical symptoms of viruses such as dengue fever and West Nile fever had higher risk in diabetic patients. Our results provide strong evidence suggesting the association between diabetes and higher risk of DENV and WNV. These findings will help to physicians to early detection and appropriate management for reducing the morbidity and mortality rates in diabetes patients with DENV and WNV. As a result, diabetes involvement in Arboviruses is usual, especially in DENV and WNV patients.",
+        "url": "https://www.semanticscholar.org/paper/46adb7bbec2a5c0b6af0c5831a15572584b68518"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Disaggregation Regression and Multi-Model Evaluation for Predicting Dengue Risk in Africa",
+        "journal": "bioRxiv",
+        "doi": null,
+        "authors": [
+          "J. Poongavanan",
+          "Tim C.D. Lucas",
+          "Gaspary O Mwanyika",
+          "M. U. Kraemer",
+          "José Lourenço",
+          "Marcel Dunaiski",
+          "Tulio de Oliveira",
+          "H. Tegally"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/7a689542a4cae4abf51e484c074153791987baf3"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Flavivirus NS2A orchestrates reticulophagy to enhance viral pathogenicity",
+        "journal": "Autophagy",
+        "doi": null,
+        "authors": [
+          "Linliang Zhang",
+          "Yali Qin",
+          "Mingzhou Chen"
+        ],
+        "abstract": "ABSTRACT Selective endoplasmic reticulum (ER) autophagy (reticulophagy) is essential for maintaining ER homeostasis. The E3 ligase AMFR facilitates the ubiquitination of the reticulophagy receptor RETREG1/FAM134B, thereby promoting the dynamic flux of the reticulophagy process. Flaviviruses exploit the ER during their replication cycles, highlighting the importance of ER quantity and accessibility in flavivirus infections. However, the role of reticulophagy in viral replication and the complex mechanisms by which viruses modulate reticulophagy to enhance pathogenicity remain poorly understood. In a recent study, we demonstrate that the Zika virus (ZIKV) hijacks the ER-located E3 ligase AMFR to ubiquitinate NS2A, leading to the degradation of the key reticulophagy receptor RETREG1. This inhibition of the reticulophagy process promotes virus-induced microcephaly in human brain organoids and enhances viral pathogenicity in mouse models. Notably, the AMFR-mediated ubiquitination of ZIKV-NS2A and its functional interaction with RETREG1 are conserved across the NS2A of other flaviviruses, including those from Dengue virus, West Nile virus, and Japanese encephalitis virus.",
+        "url": "https://www.semanticscholar.org/paper/6411cbcc927f321b303eda54125476a9bb116eee"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "[Construction and preliminary validation of machine learning predictive models for cervical cancer screening based on human DNA methylation].",
+        "journal": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+        "doi": null,
+        "authors": [
+          "Y. Yang",
+          "H. Zhou",
+          "Y. Wang",
+          "Y. Dai",
+          "R. Pi",
+          "H. Zhang",
+          "Z. Y. Huang",
+          "T. Wu",
+          "J. H. Yang",
+          "W. Chen"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/7f24c345c73dad4fc0242bced1d1146ae2c0ea02"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "HEALTH ASSESSMENT OF GOLDEN-MANTLED HOWLER MONKEYS (ALOUATTA PALLIATA PALLIATA) IN DRY FOREST FROM THE NORTH PACIFIC COAST, COSTA RICA",
+        "journal": "Journal of Zoo and Wildlife Medicine",
+        "doi": null,
+        "authors": [
+          "Shannon B Nodolf",
+          "Joseph A. Smith",
+          "Kurt A. Volle",
+          "Sofía Bernal-Valle",
+          "Gaby Dolz",
+          "Mariah Russell"
+        ],
+        "abstract": "Abstract: The golden-mantled howler monkey (Alouatta palliata palliata) represents an excellent sentinel species for use in One Health modeling because of its extensive natural range, regular contact with humans and domestic animals, and susceptibility to zoonotic diseases. The purpose of this research is to establish baseline health assessments for free ranging golden-mantled howler monkeys in Marino Las Baulas National Park, Costa Rica. In April 2013, seven free ranging golden-mantled howler monkeys were anesthetized for physical examinations and biological sample collection, including blood for hematology and blood gas analysis. All seven howler monkeys studied appeared in good overall health. On physical exams, 4/7 (57%) had some level of dental disease, most notably crown fractures. Fecal samples for endoparasite evaluation were collected from the seven anesthetized animals as well as an additional three animals that were anesthetized but remained in the trees out of reach for full physical exams. Feces were collected from the rectum or collected from the ground immediately after defecation. Fecal analysis showed 9/10 (90%) had one or more species of intestinal parasites, and one animal tested positive for Giardia spp. Hematologic values showed a mild monocytosis and eosinophilia compared to other Alouatta spp. Trypanosoma spp. were present in the blood smear of one animal. Additional vector-borne disease testing found one individual PCR positive to Plasmodium spp., and one individual PCR positive to Venezuelan equine encephalitis virus. Antibodies for West Nile virus were found in 5/7 (71%) of the animals; however, PCR testing for West Nile virus and dengue virus was negative for all samples. This represents the first published health assessments for howler monkeys in this region.",
+        "url": "https://www.semanticscholar.org/paper/20a6eda778cd6db796969043cc3d763dad893ed7"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "direct"
+      ],
+      "error_details": [
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Epidemiology of arboviruses in humans and livestock in Ethiopia: a systematic review and meta-analysis",
+        "journal": "BMC Infectious Diseases",
+        "doi": null,
+        "authors": [
+          "A. Gedefie",
+          "Habtu Debash",
+          "Altaseb Beyene Kassaw",
+          "Gossa Mankelkl",
+          "Yeshi Metaferia",
+          "M. A. Belete",
+          "Sisay Desale",
+          "Saleamlak Sebsibe",
+          "M. Tilahun",
+          "Bruktawit Eshetu",
+          "A. Shibabaw",
+          "Yeshimebet Kassa",
+          "Hussen Ebrahim",
+          "Zewudu Mulatie",
+          "Ermiyas Alemayehu",
+          "Lebasie Woretaw",
+          "B. Kebede",
+          "M. M. Temesgen",
+          "Natan Kassaye Msganew",
+          "M. Tesfaye"
+        ],
+        "abstract": "Background Arbovirus infections are a global public health threat, accounting for approximately 73% of the total emerging and re-emerging human infections, where the burden is worsened in sub-Saharan Africa, including Ethiopia. However, the surveillance system has been still challenged, and their burden and magnitude are not well estimated due to underestimates of true arbovirus burdens by passive case detections. To support targeted evidence-based public health decision-making, comprehensive evidence of arbovirus prevalence is crucial. Thus, the aim of this study was to assess the prevalence of arboviruses in humans and livestock in Ethiopia. Method Articles were extensively searched in bibliographic databases and gray literatures using entry terms or phrases. PRISMA 2020 flow diagram was used and data among studies meeting eligibility criteria extracted in MS Excel sheet and exported into STATA-17 software for analysis. A random-effects model was used to compute the pooled magnitude of arboviruses in humans and livestock. The heterogeneity was quantified using the I2 value. Publication bias was assessed using a funnel plot and Egger’s test. Sensitivity analysis, subgroup analysis and meta-regression were performed to explore heterogeneity. Result Of the 1957 studies identified, 39 human and 6 livestock studies were eligible for meta-analysis. The overall pooled sero-epidemiology of arboviruses in humans using anti-IgG and anti-IgM was 15.43% (95% CI: 12.11-18.76) and 10.04% (95% CI: 6.46-13.62), respectively. The molecular prevalence of arboviruses in humans was 38.42% (95% CI: 21.77-55.08). The pooled prevalence of arboviruses in livestock was 15.77% (95% CI: 0.45, 31.08). Dengue virus, Yellow fever virus, Zika virus, Rift valley fever, West Nile virus, and chikungunya virus in humans and Rift valley fever, West Nile virus, and Schmallenberg virus in livestock were reported. Conclusion The magnitude of arboviruses in humans and livestock in Ethiopia alarms the need for immediate multi-sectoral interventions such as strengthening laboratory diagnostic capacities, undertaking an integrated regular national surveillance, and implementation of one-health initiatives and a planetary health approach. Supplementary Information The online version contains supplementary material available at 10.1186/s12879-025-10824-7.",
+        "url": "https://www.semanticscholar.org/paper/6860254783a8cbf590561a1b967e4a1ed755daa6"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Using deep neural networks and LASSO regression to predict miRNA expression changes based on mRNA data",
+        "journal": "Frontiers in Bioinformatics",
+        "doi": null,
+        "authors": [
+          "Franz Leonard Böge",
+          "Helena U. Zacharias",
+          "Stefanie C. Becker",
+          "Klaus Jung"
+        ],
+        "abstract": "Introduction Since the rise of molecular high-throughput technologies, many diseases are now studied on multiple omics layers in parallel. Understanding the interplay between microRNAs (miRNA) and their target mRNAs is important to understand the molecular level of diseases. While much public data from mRNA experiments are available for many diseases, few paired datasets with both miRNA and mRNA expression profiles are available. This study aimed to assess the possibility of predicting miRNA expression data based on mRNA expression data, serving as a proof of principle that such cross-omics predictions are feasible. Furthermore, current research relies on target databases where information about miRNA–target relationships is provided based on experimental and computational studies. Methods To make use of publicly available mRNA profiles, we investigate the ability of artificial deep neural networks and linear least absolute shrinkage and selection operator (LASSO) regression to predict unknown miRNA expression profiles. We evaluate the approach using seven paired miRNA/mRNA expression datasets, four from studies on West Nile virus infection in mouse tissues and three from human immunodeficiency virus (HIV) infection in human tissues. We assessed the performance of each model first by within-data evaluations and second by cross-study evaluations. Furthermore, we investigated whether data augmentation or separate models for data from diseased and non-diseased samples can improve the prediction performance. Results In general, most settings achieved strong correlations at the Level of individual samples. In some datasets and settings, correlations of log-fold changes and p-values from differential expression analysis (DEA) between true and predicted miRNA profiles can be observed. Correlation between log fold changes could also be seen in a cross-study evaluation for the HIV datasets. Data augmentation consistently improved performance in neural networks, while its impact on LASSO models was not significant. Discussion Overall, cross-omics prediction of expression profiles appears possible, even with some correlations on the Level of the differential expression analysis.",
+        "url": "https://www.semanticscholar.org/paper/aa5cba502d82d768dee0f610ebd01642c595a502"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Prevalence and the Mutual Relationship Between Chronic Obstructive Pulmonary Disease and Arbovirus: A Comprehensive Systematic Review and Meta-Analysis of Current Evidence.",
+        "journal": "Reviews in medical virology",
+        "doi": null,
+        "authors": [
+          "Xiaodan Li",
+          "Shanshan Wang",
+          "Xiaoyu Ma",
+          "Ying Tang"
+        ],
+        "abstract": null,
+        "url": "https://www.semanticscholar.org/paper/47ac25ad831dabe45ce2073775b9993ed07aa865"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Habitat characterization and breeding preferences of mosquito larvae in northwestern Spain: abundance, diversity, and species composition",
+        "journal": "Parasites & Vectors",
+        "doi": null,
+        "authors": [
+          "Yasmina Martínez-Barciela",
+          "Alejandro Polina",
+          "Josefina Garrido"
+        ],
+        "abstract": "Background Understanding how environmental variables determine the presence, abundance, and diversity of mosquitoes (Diptera: Culicidae) in their larval habitats is crucial to establish appropriate preventive and control measures against these disease vectors. Although the autonomous community of Galicia (northwestern Spain) is an optimal area for the development of mosquitoes, little is known about their larval ecology. Methods The study was performed in 333 sampling points evenly distributed throughout Galicia. Different habitat characteristics (climatic zone, hydroregime, water body type, substrate, surface, depth, degree of insolation, environment type, and land use) and physicochemical parameters of the water (temperature, pH, electrical conductivity, dissolved oxygen, turbidity, salinity, and total dissolved solids) were recorded in each water body. Mosquitoes were collected using the standardized dipping technique between May and October in 2021 and 2022. The relationship between environmental variables with diversity, abundance, and species composition was assessed throughout the Kruskal–Wallis test (K-W), redundancy analysis (RDA), and generalized linear models (GLM). The affinity index between species that shared breeding sites was also analyzed. Results A total of 14 mosquito species belonging to the genus Culex (88.1%), Anopheles (7.5%), and Culiseta (4.4%) were identified, with Culex pipiens s.l. being the most abundant in the region (48.1%). The frequency, abundance, and diversity of mosquitoes varied significantly among climatic zones, hydroregime, water body types, substrates, and seasons according to the K-W results (P < 0.05). RDA indicated that water body type, temperature, pH, and the conductivity of the water accounted for the main part of the variation in species composition. GLM revealed that water conductivity, hydroregime, land use, and degree of insolation affect Cx. pipiens s.l. larval abundance. Many species shared breeding sites, but Cx. pipiens s.l. and Cx. torrentium had the highest affinity index (2.58). Both species are competent vectors of West Nile virus (WNV), so their wide presence in Galicia is of interest to public health. Conclusions Several environmental variables determine the diversity, abundance, and species composition of mosquitoes at breeding sites. The information presented in this study provides valuable insights into mosquito larval ecology, especially useful for the identification of epidemiological risk areas and the design of vector surveillance and control programs. Graphical Abstract",
+        "url": "https://www.semanticscholar.org/paper/a73f15c26775eb6224ef760fbe3d05b818af778e"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    },
+    {
+      "paper": {
+        "publish_year": "2025",
+        "title": "Optimal System Adjustment Under Operational Constraints with Applications to Infectious Disease Screening",
+        "journal": "INFORMS Journal on Computing",
+        "doi": null,
+        "authors": [
+          "Marwan Shams Eddin",
+          "Hadi El-Amine",
+          "Hrayer Aprahamian"
+        ],
+        "abstract": "We propose an optimization framework to solve problems that involve parameters that are forecast to vary over a given time horizon. We model uncertainty in the forecast through the use of lower and upper bounds that can be seen as time-dependent uncertainty levels. Our framework is applicable in long-term budget planning or resource allocation settings. We propose a model to minimize the maximum deviation from a so-called “ideal function” that we then show can be reformulated as a narrowest path problem on an acyclic directed graph with weights determined by solving minimax regret problems. Given that constructing the graph might be computationally demanding, we devise an optimal path discovery iterative scheme that computes edge weights on an as-needed basis and that results in ε-optimal solutions in a finite number of steps. We conduct an extensive numerical analysis of the proposed procedure to determine average-case performance. We then apply our proposed framework in two real-life settings: (1) large-scale screening of populations for West Nile Virus and (2) the allocation of resources in blood donation centers. The results from both case studies indicate significant reductions in yearly societal costs. History: Accepted by Paul Brooks, Area Editor for Applications in Biology, Medicine, & Healthcare. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2023.0048 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2023.0048 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+        "url": "https://www.semanticscholar.org/paper/32a4e520a39c4724a8144309f97d18b826caacfd"
+      },
+      "status": "failed",
+      "filepath": null,
+      "source": null,
+      "attempted_sources": [
+        "pmc",
+        "direct"
+      ],
+      "error_details": [
+        "pmc: No PDF content or links found",
+        "direct: HTTP 202"
+      ],
+      "failure_reasons": "pmc: No PDF content or links found; direct: HTTP 202"
+    }
+  ],
+  "timestamp": "2025-08-24 11:11:23"
+}
