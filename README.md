@@ -23,25 +23,38 @@ A powerful academic literature search tool that uses LLM-enhanced queries to fin
 
 ### Install Ollama
 
-#### On macOS
-```bash
-# Download and install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
+Choose the method that works for your operating system:
 
-# Or with Homebrew
+#### Option 1: Download from Official Website (Recommended for all users)
+1. **Go to https://ollama.com/**
+2. **Click "Download" and select your operating system**
+3. **Download the installer file**:
+   - **Windows**: Download the `.exe` installer
+   - **macOS**: Download the `.zip` file 
+   - **Linux**: Download the package for your distribution
+4. **Install**:
+   - **Windows**: Double-click the `.exe` file and follow the wizard
+   - **macOS**: Extract the `.zip` and move `Ollama.app` to Applications
+   - **Linux**: Install the package using your system's package manager
+
+#### Option 2: Command Line Installation (For Advanced Users)
+**macOS/Linux only:**
+```bash
+# Automatic installation script
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+**macOS with Homebrew:**
+```bash
 brew install ollama
 ```
 
-#### On Linux
+#### Verify Installation
+After installation, open Terminal (macOS/Linux) or Command Prompt (Windows):
 ```bash
-# Download and install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
+# Check if Ollama is installed
+ollama --version
 ```
-
-#### On Windows
-1. Download Ollama from https://ollama.com/download/windows
-2. Run the installer
-3. Open Command Prompt or PowerShell
 
 #### Pull the Required Model
 After installing Ollama:
