@@ -52,7 +52,8 @@ class OnlineLiteratureSearchAgent:
         max_results: int = 20,
         output_file: Optional[str] = None,
         start_year: Optional[int] = None,
-        end_year: Optional[int] = None
+        end_year: Optional[int] = None,
+        journals: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Search for peer-reviewed literature using Semantic Scholar
@@ -64,6 +65,7 @@ class OnlineLiteratureSearchAgent:
             output_file: Output file for incremental saves
             start_year: Specific start year (overrides years_back)
             end_year: Specific end year (overrides years_back)
+            journals: List of journal names to filter by (optional)
             
         Returns:
             List of dictionaries with publication metadata
@@ -82,7 +84,7 @@ class OnlineLiteratureSearchAgent:
         # Use qwen3 to enhance the search query
         enhanced_query = self._enhance_query_with_llm(query)
         
-        return self._search_semantic_scholar(enhanced_query, search_start, search_end, max_results, output_file)
+        return self._search_semantic_scholar(enhanced_query, search_start, search_end, max_results, output_file, journals)
     
     def _enhance_query_with_llm(self, query: str) -> str:
         """Use qwen3 to enhance the search query for better academic search results"""
@@ -141,7 +143,8 @@ Return only the enhanced search query (under 80 characters):"""
         start_year: int,
         end_year: int, 
         max_results: int,
-        output_file: Optional[str] = None
+        output_file: Optional[str] = None,
+        journals: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """Search using Semantic Scholar API"""
         
@@ -176,6 +179,16 @@ Return only the enhanced search query (under 80 characters):"""
                     if paper.get("journal"):
                         journal = paper["journal"].get("name", "")
                     
+                    # Filter by journals if specified
+                    if journals:
+                        journal_match = False
+                        for target_journal in journals:
+                            if target_journal.lower() in journal.lower():
+                                journal_match = True
+                                break
+                        if not journal_match:
+                            continue  # Skip this paper
+                    
                     result = {
                         "publish_year": str(paper.get("year", "")),
                         "title": paper.get("title", ""),
@@ -189,7 +202,7 @@ Return only the enhanced search query (under 80 characters):"""
                     results.append(result)
                     
                     # Show progress every paper
-                    print(f"Processed {len(results)}/{len(papers)} papers")
+                    print(f"Processed {len(results)} papers (examined {i+1}/{len(papers)})")
                     
                     # Save incrementally every 5 papers
                     if output_file and len(results) % 5 == 0:
@@ -220,7 +233,8 @@ Return only the enhanced search query (under 80 characters):"""
         end_year: Optional[int] = None,
         download_pdfs: bool = False,
         pdf_mode: str = "open_access",
-        pdf_dir: Optional[str] = None
+        pdf_dir: Optional[str] = None,
+        journals: Optional[List[str]] = None
     ) -> str:
         """
         Search literature and export results to JSON format
@@ -235,11 +249,12 @@ Return only the enhanced search query (under 80 characters):"""
             download_pdfs: Whether to download PDFs
             pdf_mode: "open_access" or "university_access"
             pdf_dir: Directory for PDF downloads
+            journals: List of journal names to filter by (optional)
             
         Returns:
             JSON string with search results and metadata
         """
-        results = self.search_literature(query, years_back, max_results, output_file, start_year, end_year)
+        results = self.search_literature(query, years_back, max_results, output_file, start_year, end_year, journals)
         
         # Download PDFs if requested
         pdf_results = None
@@ -350,6 +365,10 @@ def main():
     parser.add_argument("--pdf-dir", type=str,
                        help="Directory for PDF downloads (auto-generated if not specified)")
     
+    # Journal filtering options
+    parser.add_argument("--journals", "-j", type=str, nargs='+',
+                       help="Filter by specific journals (e.g., --journals 'Nature' 'Science' 'Cell')")
+    
     args = parser.parse_args()
     
     # Parse time range - only one option allowed
@@ -417,7 +436,8 @@ def main():
             end_year=end_year,
             download_pdfs=args.download_pdfs,
             pdf_mode=args.pdf_mode,
-            pdf_dir=args.pdf_dir
+            pdf_dir=args.pdf_dir,
+            journals=args.journals
         )
         
         # Print summary if no output file specified

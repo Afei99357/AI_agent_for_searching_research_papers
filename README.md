@@ -296,6 +296,16 @@ uv run python online_literature_search.py "cancer immunotherapy" \
   --max-results 75 \
   --output cancer_immuno.json
 
+# Filter by top medical journals
+uv run python online_literature_search.py "cancer treatment" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --journals "The Lancet" "New England Journal of Medicine" "Nature Medicine" \
+  --years-back 2 \
+  --max-results 40 \
+  --pdf-dir "cancer_top_journals" \
+  --output cancer_top_journals.json
+
 # Specific time period with full access
 uv run python online_literature_search.py "COVID-19 vaccine efficacy" \
   --download-pdfs \
@@ -422,6 +432,15 @@ uv run python online_literature_search.py "climate change modeling machine learn
   --pdf-dir "climate_ml" \
   --output climate_modeling_ml.json
 
+# Target specific high-impact journals
+uv run python online_literature_search.py "climate modeling" \
+  --download-pdfs \
+  --journals "Nature" "Science" "Nature Climate Change" \
+  --years-back 3 \
+  --max-results 50 \
+  --pdf-dir "climate_top_journals" \
+  --output climate_top_journals.json
+
 # Conservation biology with recent findings
 uv run python online_literature_search.py "species extinction prediction biodiversity" \
   --download-pdfs \
@@ -460,7 +479,70 @@ uv run python online_literature_search.py "perovskite solar cell efficiency" \
   --output perovskite_solar.json
 ```
 
-### 6. Practical Workflows
+### 6. Journal Filtering Examples
+
+Target papers from specific high-impact journals to improve PDF download success rates and focus on quality publications.
+
+#### Targeting Top-Tier Journals
+```bash
+# Focus on Nature family journals
+uv run python online_literature_search.py "machine learning" \
+  --download-pdfs \
+  --journals "Nature" "Nature Machine Intelligence" "Nature Methods" \
+  --years-back 2 \
+  --max-results 30 \
+  --pdf-dir "nature_ml_papers" \
+  --output nature_ml.json
+
+# Target medical journals
+uv run python online_literature_search.py "cancer immunotherapy" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --journals "The Lancet" "New England Journal of Medicine" "Cell" \
+  --year-range "2022-2024" \
+  --max-results 40 \
+  --pdf-dir "cancer_top_journals" \
+  --output cancer_journals.json
+
+# Computer science venues
+uv run python online_literature_search.py "neural networks" \
+  --download-pdfs \
+  --journals "Science" "PNAS" "Nature Communications" \
+  --years-back 3 \
+  --max-results 50 \
+  --pdf-dir "cs_top_journals" \
+  --output cs_journals.json
+```
+
+#### Multiple Journal Filtering
+```bash
+# Environmental science journals
+uv run python online_literature_search.py "climate change" \
+  --download-pdfs \
+  --journals "Nature Climate Change" "Environmental Research Letters" "Global Change Biology" \
+  --years-back 4 \
+  --max-results 60 \
+  --pdf-dir "climate_journals" \
+  --output climate_journals.json
+
+# Broad science search across prestigious venues
+uv run python online_literature_search.py "artificial intelligence" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --journals "Nature" "Science" "Cell" "The Lancet" "PNAS" \
+  --years-back 2 \
+  --max-results 80 \
+  --pdf-dir "ai_top_venues" \
+  --output ai_prestigious.json
+```
+
+**Why use journal filtering:**
+- **Higher PDF success rates**: Top journals often have better open access policies
+- **Quality control**: Focus on peer-reviewed, high-impact publications  
+- **Targeted research**: Get papers from specific research communities
+- **Efficient use of API limits**: Get the most relevant papers within the 100-paper limit
+
+### 7. Practical Workflows
 
 #### Getting Started (No University Access)
 ```bash
@@ -704,6 +786,11 @@ Results saved to: results.json
 | `--download-pdfs` | - | False | Enable PDF downloading |
 | `--pdf-mode` | - | open_access | Mode: open_access or university_access |
 | `--pdf-dir` | - | Auto | Directory for PDF downloads |
+
+### Journal Filtering Options
+| Option | Short | Default | Description |
+|--------|-------|---------|-------------|
+| `--journals` | `-j` | None | Filter by specific journals (e.g., --journals 'Nature' 'Science') |
 
 **Time filtering options are mutually exclusive** - use only one per search.
 
