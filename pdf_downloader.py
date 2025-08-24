@@ -128,12 +128,18 @@ class PDFDownloader:
         if pmc_url:
             download_sources.append(("pmc", pmc_url))
         
-        # 4. If university access mode, try publisher direct
+        # 4. Try Semantic Scholar page to find additional links
+        if url and "semanticscholar.org" in url:
+            semantic_links = self._extract_semantic_scholar_links(url)
+            for link_name, link_url in semantic_links:
+                download_sources.append((link_name, link_url))
+        
+        # 5. If university access mode, try publisher direct
         if self.mode == "university_access":
             if doi:
                 publisher_url = f"https://doi.org/{doi}"
                 download_sources.append(("publisher", publisher_url))
-            elif url:
+            elif url and not "semanticscholar.org" in url:
                 download_sources.append(("direct", url))
         
         # If no sources found, provide helpful error message
@@ -200,6 +206,8 @@ class PDFDownloader:
             return self._download_arxiv_pdf(url, filepath)
         elif source == "publisher":
             return self._download_publisher_pdf(url, filepath)
+        elif source in ["semantic_pdf", "publisher_doi", "nature", "science", "cell", "elsevier", "springer", "wiley", "taylor_francis", "ieee", "acm", "bmj", "nejm", "lancet", "jama", "nih", "pubmed", "external"]:
+            return self._download_publisher_pdf(url, filepath)  # Use publisher PDF method for all external links
         else:
             return self._download_direct_pdf(url, filepath)
     
@@ -283,12 +291,47 @@ class PDFDownloader:
             
             # Look for PDF download links (common patterns)
             pdf_selectors = [
+                # Direct PDF links
                 'a[href*=".pdf"]',
                 'a[href*="pdf"]', 
+                
+                # Common CSS classes and data attributes
                 'a.pdf-download',
                 'a.download-pdf',
                 '.pdf-link a',
-                '[data-testid="pdf-link"]'
+                '[data-testid="pdf-link"]',
+                'a.pdf-link',
+                '.download-link a[href*="pdf"]',
+                
+                # Publisher-specific patterns
+                'a[href*="fulltextPDF"]',  # Common in academic sites
+                'a[href*="/pdf/"]',        # URL path pattern
+                'a[href*="viewPDF"]',      # View PDF links
+                'a[href*="downloadPDF"]',  # Download PDF links
+                
+                # Nature family
+                '.pdf-button a',
+                '.c-pdf-link a',
+                '.c-article-pdf-link',
+                
+                # Elsevier/ScienceDirect
+                '.pdf-download-btn a',
+                'a[data-article-type="pdf"]',
+                '.accessbar .pdf a',
+                
+                # Springer
+                '.c-article-header__button a[href*="pdf"]',
+                '.u-button--primary a[href*="pdf"]',
+                
+                # Wiley
+                '.coolBar__download a',
+                '.epub-section .download a[href*="pdf"]',
+                
+                # Generic fallbacks
+                'a:contains("PDF")',
+                'a:contains("Download")',
+                '[title*="PDF"]',
+                '[title*="Download"]'
             ]
             
             pdf_links_found = 0
@@ -406,6 +449,101 @@ class PDFDownloader:
             pass
         
         return None
+    
+    def _extract_semantic_scholar_links(self, semantic_url: str) -> List[Tuple[str, str]]:
+        """Extract external links from Semantic Scholar paper page"""
+        links = []
+        
+        try:
+            response = self.session.get(semantic_url, timeout=15)
+            if response.status_code != 200:
+                return links
+            
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Look for various types of external links on Semantic Scholar pages
+            link_patterns = [
+                # Direct PDF links
+                {'selector': 'a[href*=".pdf"]', 'name': 'semantic_pdf'},
+                
+                # Common publisher domains
+                {'selector': 'a[href*="doi.org"]', 'name': 'publisher_doi'},
+                {'selector': 'a[href*="nature.com"]', 'name': 'nature'},
+                {'selector': 'a[href*="science.org"]', 'name': 'science'},
+                {'selector': 'a[href*="cell.com"]', 'name': 'cell'},
+                {'selector': 'a[href*="sciencedirect.com"]', 'name': 'elsevier'},
+                {'selector': 'a[href*="springer.com"]', 'name': 'springer'},
+                {'selector': 'a[href*="springerlink.com"]', 'name': 'springer'},
+                {'selector': 'a[href*="wiley.com"]', 'name': 'wiley'},
+                {'selector': 'a[href*="onlinelibrary.wiley.com"]', 'name': 'wiley'},
+                {'selector': 'a[href*="tandfonline.com"]', 'name': 'taylor_francis'},
+                {'selector': 'a[href*="ieee.org"]', 'name': 'ieee'},
+                {'selector': 'a[href*="acm.org"]', 'name': 'acm'},
+                {'selector': 'a[href*="bmj.com"]', 'name': 'bmj'},
+                {'selector': 'a[href*="nejm.org"]', 'name': 'nejm'},
+                {'selector': 'a[href*="thelancet.com"]', 'name': 'lancet'},
+                {'selector': 'a[href*="jama"]', 'name': 'jama'},
+                {'selector': 'a[href*="nih.gov"]', 'name': 'nih'},
+                {'selector': 'a[href*="pubmed"]', 'name': 'pubmed'},
+                
+                # Generic external links (excluding social media and common domains)
+                {'selector': 'a[href^="http"]:not([href*="twitter.com"]):not([href*="facebook.com"]):not([href*="linkedin.com"]):not([href*="semanticscholar.org"]):not([href*="google.com"])', 'name': 'external'}
+            ]
+            
+            found_links = set()  # Prevent duplicates
+            
+            for pattern in link_patterns:
+                elements = soup.select(pattern['selector'])
+                for element in elements:
+                    href = element.get('href')
+                    if href and href not in found_links:
+                        # Clean up relative URLs
+                        if href.startswith('//'):
+                            href = 'https:' + href
+                        elif href.startswith('/'):
+                            continue  # Skip relative paths
+                        
+                        # Skip obviously non-paper links
+                        skip_patterns = [
+                            'javascript:', 'mailto:', '#', 
+                            'twitter.com', 'facebook.com', 'linkedin.com',
+                            'scholar.google.com', 'orcid.org', 'researchgate.net'
+                        ]
+                        
+                        if any(skip in href.lower() for skip in skip_patterns):
+                            continue
+                        
+                        found_links.add(href)
+                        links.append((pattern['name'], href))
+                        
+                        # Limit to prevent too many attempts
+                        if len(links) >= 10:
+                            break
+                
+                if len(links) >= 10:
+                    break
+            
+            # Prioritize certain link types
+            priority_order = ['semantic_pdf', 'publisher_doi', 'nature', 'science', 'cell', 'elsevier', 'springer', 'wiley']
+            
+            # Sort links by priority
+            def link_priority(link_tuple):
+                name, url = link_tuple
+                try:
+                    return priority_order.index(name)
+                except ValueError:
+                    return len(priority_order)
+            
+            links = sorted(links, key=link_priority)
+            
+        except requests.exceptions.Timeout:
+            pass  # Return empty list on timeout
+        except requests.exceptions.ConnectionError:
+            pass  # Return empty list on connection error
+        except Exception as e:
+            pass  # Return empty list on any other error
+        
+        return links[:5]  # Return top 5 links to avoid too many attempts
     
     def _is_valid_pdf(self, filepath: Path) -> bool:
         """Check if downloaded file is a valid PDF"""
