@@ -19,7 +19,7 @@ A powerful academic literature search tool that uses LLM-enhanced queries to fin
 ### Required Software
 - Python 3.13+
 - [UV package manager](https://github.com/astral-sh/uv) (or pip)
-- [Ollama](https://ollama.com/) with qwen2.5:3b model
+- [Ollama](https://ollama.com/) with qwen3:latest model
 
 ### Install UV Package Manager
 
@@ -105,7 +105,7 @@ After installing Ollama:
 ollama serve
 
 # In a new terminal, pull the required model
-ollama pull qwen2.5:3b
+ollama pull qwen3:latest
 ```
 
 ### Setup Project
@@ -717,13 +717,13 @@ Results saved to: results.json
 ollama list
 
 # If model is not found, pull it
-ollama pull qwen2.5:3b
+ollama pull qwen3:latest
 
 # If Ollama service is not running
 ollama serve
 
 # Test the model directly
-ollama run qwen2.5:3b "Hello, how are you?"
+ollama run qwen3:latest "Hello, how are you?"
 
 # Check Ollama logs (Linux/macOS)
 journalctl -u ollama -f
@@ -731,10 +731,10 @@ journalctl -u ollama -f
 ```
 
 **Common Ollama Issues:**
-- **Model not found**: Run `ollama pull qwen2.5:3b`
+- **Model not found**: Run `ollama pull qwen3:latest`
 - **Connection refused**: Start Ollama service with `ollama serve`
 - **Slow responses**: Model is loading, wait a few minutes
-- **Memory issues**: qwen2.5:3b requires ~2GB RAM
+- **Memory issues**: qwen3:latest requires ~4GB RAM
 
 #### API Rate Limits
 ```bash

@@ -26,7 +26,7 @@ class OnlineLiteratureSearchAgent:
     
     def __init__(self):
         self.semantic_scholar_base = "https://api.semanticscholar.org/graph/v1"
-        self.llm_model = "qwen2.5:3b"
+        self.llm_model = "qwen3:latest"
     
     def _save_incremental_results(self, results: List[Dict[str, Any]], output_file: str):
         """Save incremental results to prevent data loss"""
