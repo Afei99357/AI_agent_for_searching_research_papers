@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 import argparse
 import ollama
+from pdf_downloader import PDFDownloader
 
 
 @dataclass
@@ -216,7 +217,10 @@ Return only the enhanced search query (under 80 characters):"""
         output_file: Optional[str] = None, 
         max_results: int = 20,
         start_year: Optional[int] = None,
-        end_year: Optional[int] = None
+        end_year: Optional[int] = None,
+        download_pdfs: bool = False,
+        pdf_mode: str = "open_access",
+        pdf_dir: Optional[str] = None
     ) -> str:
         """
         Search literature and export results to JSON format
@@ -228,11 +232,41 @@ Return only the enhanced search query (under 80 characters):"""
             max_results: Maximum number of results
             start_year: Specific start year
             end_year: Specific end year
+            download_pdfs: Whether to download PDFs
+            pdf_mode: "open_access" or "university_access"
+            pdf_dir: Directory for PDF downloads
             
         Returns:
             JSON string with search results and metadata
         """
         results = self.search_literature(query, years_back, max_results, output_file, start_year, end_year)
+        
+        # Download PDFs if requested
+        pdf_results = None
+        if download_pdfs and results:
+            print(f"\nDownloading PDFs using {pdf_mode} mode...")
+            
+            # Set up PDF directory
+            if pdf_dir is None:
+                pdf_dir = f"pdfs_{query.replace(' ', '_')[:20]}"
+            
+            downloader = PDFDownloader(download_dir=pdf_dir, mode=pdf_mode)
+            pdf_results = downloader.download_papers(results)
+            
+            print(f"\nPDF Download Summary:")
+            print(f"  Total attempts: {pdf_results['statistics']['total_attempts']}")
+            print(f"  Successful: {pdf_results['statistics']['successful_downloads']}")
+            print(f"  Open access: {pdf_results['statistics']['open_access_found']}")
+            if pdf_mode == "university_access":
+                print(f"  University access: {pdf_results['statistics']['university_access_used']}")
+            print(f"  Failed: {pdf_results['statistics']['failed_downloads']}")
+            print(f"  PDFs saved to: {pdf_results['download_directory']}")
+            
+            # Save detailed PDF report
+            if output_file:
+                pdf_report_file = output_file.replace('.json', '_pdf_report.json')
+                downloader.save_download_report(pdf_results, pdf_report_file)
+                print(f"  PDF report saved to: {pdf_report_file}")
         
         # Calculate search period for metadata
         if start_year is not None and end_year is not None:
@@ -253,6 +287,15 @@ Return only the enhanced search query (under 80 characters):"""
             "search_date": datetime.now().isoformat(),
             "papers": results
         }
+        
+        # Add PDF information if PDFs were downloaded
+        if pdf_results:
+            search_info["pdf_downloads"] = {
+                "enabled": True,
+                "mode": pdf_mode,
+                "directory": pdf_results["download_directory"],
+                "statistics": pdf_results["statistics"]
+            }
         
         # Convert to JSON
         json_output = json.dumps(search_info, indent=2, ensure_ascii=False)
@@ -280,6 +323,15 @@ def main():
                        help="Maximum results (default: 20, up to 100 without API key)")
     parser.add_argument("--output", "-o", type=str, 
                        help="Output file (saves JSON results)")
+    
+    # PDF downloading options
+    parser.add_argument("--download-pdfs", action="store_true",
+                       help="Download PDFs of found papers")
+    parser.add_argument("--pdf-mode", choices=["open_access", "university_access"], 
+                       default="open_access",
+                       help="PDF download mode: open_access (free only) or university_access (try all sources)")
+    parser.add_argument("--pdf-dir", type=str,
+                       help="Directory for PDF downloads (auto-generated if not specified)")
     
     args = parser.parse_args()
     
@@ -345,7 +397,10 @@ def main():
             output_file=args.output,
             max_results=args.max_results,
             start_year=start_year,
-            end_year=end_year
+            end_year=end_year,
+            download_pdfs=args.download_pdfs,
+            pdf_mode=args.pdf_mode,
+            pdf_dir=args.pdf_dir
         )
         
         # Print summary if no output file specified

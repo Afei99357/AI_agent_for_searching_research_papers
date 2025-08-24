@@ -12,6 +12,7 @@ A powerful academic literature search tool that uses LLM-enhanced queries to fin
 - 🔄 **Error Recovery**: Skips problematic papers and continues processing
 - 📈 **Real-time Progress**: Shows processing progress and paper counts
 - 🎯 **Month-Level Granularity**: Break searches into small chunks to work within API limits
+- 📄 **PDF Downloads**: Automatic PDF downloading with open access and university access modes
 
 ## Prerequisites
 
@@ -40,6 +41,15 @@ uv run python online_literature_search.py "machine learning healthcare"
 
 # Save to file
 uv run python online_literature_search.py "machine learning healthcare" --output results.json
+
+# Download PDFs automatically
+uv run python online_literature_search.py "quantum computing" --download-pdfs
+
+# University access with PDFs
+uv run python online_literature_search.py "medical imaging AI" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --output medical_ai.json
 ```
 
 ## Usage Examples
@@ -106,98 +116,310 @@ uv run python online_literature_search.py "quantum entanglement" --max-results 2
 uv run python online_literature_search.py "artificial intelligence ethics"
 ```
 
-### 3. Complex Research Scenarios
+### 3. PDF Downloading
 
-#### Systematic Literature Review
+#### Open Access Mode (Default - Safe & Legal)
 ```bash
-# Comprehensive search across multiple years
+# Download only open access PDFs (arXiv, PMC, etc.)
+uv run python online_literature_search.py "machine learning healthcare" \
+  --download-pdfs \
+  --max-results 50 \
+  --output ml_health.json
+
+# Specify custom PDF directory
+uv run python online_literature_search.py "quantum computing" \
+  --download-pdfs \
+  --pdf-dir "quantum_papers" \
+  --max-results 30
+```
+
+#### University Access Mode (With Institutional Access)
+```bash
+# Try all sources including publisher direct downloads
+uv run python online_literature_search.py "climate change modeling" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --max-results 40 \
+  --output climate_papers.json
+
+# Combine with time filtering for focused collection
+uv run python online_literature_search.py "covid vaccine efficacy" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --month-range "2023-01-2023-12" \
+  --pdf-dir "covid_vaccines_2023"
+```
+
+#### PDF Download Sources
+**Open Access Mode** (safe, legal, free):
+- arXiv preprints
+- PubMed Central (PMC) 
+- Unpaywall database
+- Open access journals
+
+**University Access Mode** (requires institutional access):
+- All open access sources above
+- Publisher direct downloads (Elsevier, Springer, etc.)
+- Institutional repository links
+- DOI-based downloads
+
+### 4. Comprehensive Examples (Combining Multiple Options)
+
+#### Basic Research with PDFs
+```bash
+# Simple search with PDF downloads
+uv run python online_literature_search.py "neural networks" \
+  --download-pdfs \
+  --max-results 30 \
+  --output neural_networks.json
+
+# Recent papers with custom PDF directory
+uv run python online_literature_search.py "transformer models" \
+  --years-back 2 \
+  --download-pdfs \
+  --pdf-dir "transformer_papers" \
+  --max-results 50 \
+  --output transformers_2years.json
+```
+
+#### University Research (With Institutional Access)
+```bash
+# Medical research with university access
+uv run python online_literature_search.py "cancer immunotherapy" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --year-range "2022-2024" \
+  --max-results 75 \
+  --output cancer_immuno.json
+
+# Specific time period with full access
+uv run python online_literature_search.py "COVID-19 vaccine efficacy" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --month-range "2023-01-2023-12" \
+  --pdf-dir "covid_vaccines_2023" \
+  --output covid_vaccines_2023.json
+```
+
+#### Large Scale Research Projects
+```bash
+# Systematic literature review
 uv run python online_literature_search.py "systematic review meta-analysis" \
   --year-range "2020-2024" \
-  --max-results 200 \
-  --api crossref \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --max-results 100 \
+  --pdf-dir "systematic_reviews" \
   --output systematic_review_papers.json
+
+# Comprehensive AI research collection
+uv run python online_literature_search.py "artificial intelligence healthcare" \
+  --years-back 3 \
+  --download-pdfs \
+  --max-results 100 \
+  --pdf-dir "ai_healthcare_3years" \
+  --output ai_healthcare.json
 ```
 
-#### Trend Analysis Over Time
+#### Working Within API Limits
 ```bash
-# Historical perspective (2000-2010)
-uv run python online_literature_search.py "social media impact" \
-  --year-range "2000-2010" \
-  --output social_media_2000s.json
-
-# Recent developments (2020-2024)
-uv run python online_literature_search.py "social media impact" \
-  --year-range "2020-2024" \
-  --output social_media_2020s.json
-```
-
-#### Working Within API Limits Using Month Ranges
-```bash
-# Break down 2024 into quarters to stay under 100-paper limit
-uv run python online_literature_search.py "AI healthcare" \
+# Break large searches into manageable chunks
+uv run python online_literature_search.py "climate change modeling" \
   --month-range "2024-01-2024-03" \
-  --output ai_q1_2024.json
+  --download-pdfs \
+  --max-results 100 \
+  --pdf-dir "climate_q1_2024" \
+  --output climate_q1_2024.json
 
-uv run python online_literature_search.py "AI healthcare" \
+uv run python online_literature_search.py "climate change modeling" \
   --month-range "2024-04-2024-06" \
-  --output ai_q2_2024.json
+  --download-pdfs \
+  --max-results 100 \
+  --pdf-dir "climate_q2_2024" \
+  --output climate_q2_2024.json
 
-uv run python online_literature_search.py "AI healthcare" \
-  --month-range "2024-07-2024-09" \
-  --output ai_q3_2024.json
-
-uv run python online_literature_search.py "AI healthcare" \
-  --month-range "2024-10-2024-12" \
-  --output ai_q4_2024.json
+# Single month for very active research areas
+uv run python online_literature_search.py "large language models" \
+  --month-range "2024-06-2024-06" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --max-results 100 \
+  --pdf-dir "llm_june_2024" \
+  --output llm_june_2024.json
 ```
 
-### 5. Domain-Specific Examples
+### 5. Domain-Specific Examples with PDF Downloads
 
 #### Medical Research
 ```bash
-# Epidemiological studies with month-level precision
-uv run python online_literature_search.py "infectious disease modeling" \
-  --month-range "2023-01-2023-12" \
-  --max-results 100 \
-  --output epidemiology.json
+# Clinical studies with university access
+uv run python online_literature_search.py "cancer immunotherapy clinical trial" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --year-range "2022-2024" \
+  --max-results 60 \
+  --pdf-dir "cancer_trials" \
+  --output cancer_trials.json
 
-# Clinical trials from recent years
-uv run python online_literature_search.py "randomized controlled trial diabetes" \
-  --year-range "2020-2024" \
-  --api crossref \
-  --max-results 200 \
-  --output diabetes_trials.json
+# Epidemiology papers (open access focus)
+uv run python online_literature_search.py "COVID-19 epidemiology transmission" \
+  --download-pdfs \
+  --month-range "2023-01-2023-12" \
+  --max-results 80 \
+  --pdf-dir "covid_epidemiology" \
+  --output covid_epidemiology.json
+
+# Drug discovery research
+uv run python online_literature_search.py "drug discovery artificial intelligence" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --years-back 3 \
+  --max-results 75 \
+  --pdf-dir "ai_drug_discovery" \
+  --output ai_drug_discovery.json
 ```
 
 #### Computer Science
 ```bash
-# AI/ML research - recent developments
-uv run python online_literature_search.py "transformer neural networks" \
+# AI/ML research with PDFs (often on arXiv)
+uv run python online_literature_search.py "transformer neural networks attention" \
+  --download-pdfs \
   --month-range "2024-01-2024-06" \
   --max-results 100 \
+  --pdf-dir "transformer_papers" \
   --output transformers_h1_2024.json
 
-# Cybersecurity research
-uv run python online_literature_search.py "zero-day vulnerability detection" \
+# Cybersecurity research with university access
+uv run python online_literature_search.py "zero-day vulnerability detection machine learning" \
+  --download-pdfs \
+  --pdf-mode university_access \
   --year-range "2022-2024" \
-  --max-results 75 \
-  --output cybersecurity.json
+  --max-results 50 \
+  --pdf-dir "cybersec_ml" \
+  --output cybersecurity_ml.json
+
+# Software engineering research
+uv run python online_literature_search.py "code review automation deep learning" \
+  --download-pdfs \
+  --years-back 4 \
+  --max-results 60 \
+  --pdf-dir "code_review_ai" \
+  --output code_review_automation.json
 ```
 
 #### Environmental Science
 ```bash
-# Climate research with large dataset
-uv run python online_literature_search.py "carbon sequestration forest" \
-  --years-back 8 \
-  --api crossref \
-  --max-results 250 \
-  --output carbon_sequestration.json
+# Climate modeling research
+uv run python online_literature_search.py "climate change modeling machine learning" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --years-back 5 \
+  --max-results 80 \
+  --pdf-dir "climate_ml" \
+  --output climate_modeling_ml.json
 
-# Conservation biology - recent findings
-uv run python online_literature_search.py "species extinction prediction" \
-  --month-range "2024-01-2024-06" \
-  --max-results 100 \
+# Conservation biology with recent findings
+uv run python online_literature_search.py "species extinction prediction biodiversity" \
+  --download-pdfs \
+  --month-range "2023-01-2024-06" \
+  --max-results 70 \
+  --pdf-dir "biodiversity_prediction" \
   --output extinction_prediction.json
+
+# Marine science research
+uv run python online_literature_search.py "ocean acidification coral reef impact" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --year-range "2020-2024" \
+  --max-results 65 \
+  --pdf-dir "ocean_acidification" \
+  --output ocean_acidification.json
+```
+
+#### Physics and Engineering
+```bash
+# Quantum computing research (often on arXiv)
+uv run python online_literature_search.py "quantum error correction algorithm" \
+  --download-pdfs \
+  --years-back 3 \
+  --max-results 55 \
+  --pdf-dir "quantum_error_correction" \
+  --output quantum_ecc.json
+
+# Materials science with university access
+uv run python online_literature_search.py "perovskite solar cell efficiency" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --year-range "2022-2024" \
+  --max-results 70 \
+  --pdf-dir "perovskite_solar" \
+  --output perovskite_solar.json
+```
+
+### 6. Practical Workflows
+
+#### Getting Started (No University Access)
+```bash
+# Start with open access papers only
+uv run python online_literature_search.py "machine learning medical diagnosis" \
+  --download-pdfs \
+  --years-back 2 \
+  --max-results 25 \
+  --output ml_diagnosis_start.json
+
+# Check what you got, then expand search
+uv run python online_literature_search.py "machine learning medical diagnosis" \
+  --download-pdfs \
+  --month-range "2022-01-2024-12" \
+  --max-results 75 \
+  --pdf-dir "ml_diagnosis_expanded" \
+  --output ml_diagnosis_full.json
+```
+
+#### University Research Workflow
+```bash
+# Step 1: Quick exploration (last year only)
+uv run python online_literature_search.py "CRISPR gene editing safety" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --years-back 1 \
+  --max-results 30 \
+  --pdf-dir "crispr_recent" \
+  --output crispr_2024.json
+
+# Step 2: Comprehensive historical search
+uv run python online_literature_search.py "CRISPR gene editing safety" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --year-range "2020-2023" \
+  --max-results 100 \
+  --pdf-dir "crispr_historical" \
+  --output crispr_2020_2023.json
+
+# Step 3: Very recent developments (month-level)
+uv run python online_literature_search.py "CRISPR gene editing safety adverse events" \
+  --download-pdfs \
+  --pdf-mode university_access \
+  --month-range "2024-06-2024-12" \
+  --max-results 50 \
+  --pdf-dir "crispr_latest" \
+  --output crispr_latest_2024.json
+```
+
+#### Large Scale Systematic Review
+```bash
+# Break into manageable chunks by year
+for year in 2020 2021 2022 2023 2024; do
+  echo "Searching year: $year"
+  uv run python online_literature_search.py "systematic review machine learning healthcare" \
+    --download-pdfs \
+    --pdf-mode university_access \
+    --year-range "$year-$year" \
+    --max-results 100 \
+    --pdf-dir "systematic_review_${year}" \
+    --output "systematic_review_${year}.json"
+  sleep 10  # Rate limiting
+done
 ```
 
 ## Command Line Options
@@ -235,7 +457,19 @@ The tool exports results in structured JSON format:
       "abstract": "This paper presents a machine learning approach...",
       "url": "https://semanticscholar.org/paper/..."
     }
-  ]
+  ],
+  "pdf_downloads": {
+    "enabled": true,
+    "mode": "open_access",
+    "directory": "pdfs_west_nile_virus_pre",
+    "statistics": {
+      "total_attempts": 25,
+      "successful_downloads": 12,
+      "open_access_found": 12,
+      "university_access_used": 0,
+      "failed_downloads": 13
+    }
+  }
 }
 ```
 
@@ -315,6 +549,16 @@ json_output = agent.search_and_export_json(
     output_file="energy_storage.json",
     max_results=75
 )
+
+# Search with PDF downloads
+json_output = agent.search_and_export_json(
+    query="machine learning medical imaging",
+    years_back=2,
+    max_results=30,
+    download_pdfs=True,
+    pdf_mode="university_access",
+    pdf_dir="ml_medical_papers"
+)
 ```
 
 ## Progress Tracking
@@ -337,6 +581,27 @@ Processed 5/20 papers
 Found 20 papers from Semantic Scholar
 Results saved to: results.json
 ```
+
+## Command Line Reference
+
+### Basic Options
+| Option | Short | Default | Description |
+|--------|-------|---------|-------------|
+| `query` | - | - | Search query (required) |
+| `--years-back` | `-y` | 10 | Years back from current year |
+| `--year-range` | `-r` | None | Specific years like '2020-2024' |
+| `--month-range` | `-m` | None | Month ranges like '2025-01-2025-06' |
+| `--max-results` | `-n` | 20 | Maximum number of results (up to 100) |
+| `--output` | `-o` | None | Output JSON file path |
+
+### PDF Download Options
+| Option | Short | Default | Description |
+|--------|-------|---------|-------------|
+| `--download-pdfs` | - | False | Enable PDF downloading |
+| `--pdf-mode` | - | open_access | Mode: open_access or university_access |
+| `--pdf-dir` | - | Auto | Directory for PDF downloads |
+
+**Time filtering options are mutually exclusive** - use only one per search.
 
 ## Troubleshooting
 
